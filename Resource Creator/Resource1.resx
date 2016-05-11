@@ -1,0 +1,4024 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+		Microsoft ResX Schema
+
+		Version 1.3
+
+		The primary goals of this format is to allow a simple XML format 
+		that is mostly human readable. The generation and parsing of the 
+		various data types are done through the TypeConverter classes 
+		associated with the data types.
+
+		Example:
+
+		... ado.net/XML headers & schema ...
+		<resheader name="resmimetype">text/microsoft-resx</resheader>
+		<resheader name="version">1.3</resheader>
+		<resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+		<resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+		<data name="Name1">this is my long string</data>
+		<data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+		<data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+			[base64 mime encoded serialized .NET Framework object]
+		</data>
+		<data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+			[base64 mime encoded string representing a byte array form of the .NET Framework object]
+		</data>
+
+		There are any number of "resheader" rows that contain simple 
+		name/value pairs.
+
+		Each data row contains a name, and value. The row also contains a 
+		type or mimetype. Type corresponds to a .NET class that support 
+		text/value conversion through the TypeConverter architecture. 
+		Classes that don't support this are serialized and stored with the 
+		mimetype set.
+
+		The mimetype is used for serialized objects, and tells the 
+		ResXResourceReader how to depersist the object. This is currently not 
+		extensible. For a given mimetype the value must be set accordingly:
+
+		Note - application/x-microsoft.net.object.binary.base64 is the format 
+		that the ResXResourceWriter will generate, however the reader can 
+		read any of the formats listed below.
+
+		mimetype: application/x-microsoft.net.object.binary.base64
+		value   : The object must be serialized with 
+			: System.Serialization.Formatters.Binary.BinaryFormatter
+			: and then encoded with base64 encoding.
+
+		mimetype: application/x-microsoft.net.object.soap.base64
+		value   : The object must be serialized with 
+			: System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+			: and then encoded with base64 encoding.
+
+		mimetype: application/x-microsoft.net.object.bytearray.base64
+		value   : The object must be serialized into a byte array 
+			: using a System.ComponentModel.TypeConverter
+			: and then encoded with base64 encoding.
+	-->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="1">
+    <value>1</value>
+  </data>
+  <data name="1-50">
+    <value>1-50</value>
+  </data>
+  <data name="1-9">
+    <value>1-9</value>
+  </data>
+  <data name="2">
+    <value>2</value>
+  </data>
+  <data name="3">
+    <value>3</value>
+  </data>
+  <data name="4">
+    <value>4</value>
+  </data>
+  <data name="AccessDenied">
+    <value>Accès Interdit</value>
+  </data>
+  <data name="AddCow">
+    <value>Ajouter la vache</value>
+  </data>
+  <data name="AddCowNotFound">
+    <value>Ajoutez la vache. Si vous ajoutez une vache au nom que vous recherchez, veuillez vous assurez que le nom est bien épelé.</value>
+  </data>
+  <data name="AddCustomer">
+    <value>Ajouter le client</value>
+  </data>
+  <data name="AddCustomerToListAlert">
+    <value>Êtes-vous sûr que vous voulez ajouter ce client à votre liste? En ajoutant ce client vous téléchargerez automatiquement son troupeau, cela peut durer plusieurs minutes. </value>
+  </data>
+  <data name="AddEditCowSearchResult">
+    <value>Vache(s) retrouvée(s) - Sélectionnez la vache à télécharger. </value>
+  </data>
+  <data name="AddNew">
+    <value>Ajoutez la nouvelle vache</value>
+  </data>
+  <data name="AddNewCustomer">
+    <value>Ajoutez le nouveau client</value>
+  </data>
+  <data name="AddressLine1">
+    <value>Adresse ligne 1</value>
+  </data>
+  <data name="AddressLine1*">
+    <value>Adresse ligne 1*</value>
+  </data>
+  <data name="AddressLine2">
+    <value>Adresse ligne 2</value>
+  </data>
+  <data name="AddressLine3">
+    <value>Adresse ligne 3</value>
+  </data>
+  <data name="AddressLine4">
+    <value>Adresse ligne 4</value>
+  </data>
+  <data name="AddToCustomerList">
+    <value>Ajoutez à la liste des clients</value>
+  </data>
+  <data name="Age">
+    <value>Âge</value>
+  </data>
+  <data name="Alert">
+    <value>Alerte</value>
+  </data>
+  <data name="AlertCowsSelected">
+    <value>Il n'y a pas de vaches de sélectionnées.</value>
+  </data>
+  <data name="AlertGamePlanSelected">
+    <value>Il n'y a pas de stratégies de choisies.</value>
+  </data>
+  <data name="All">
+    <value>Tous</value>
+  </data>
+  <data name="AnimalsNotScored">
+    <value>Animaux sans pointage</value>
+  </data>
+  <data name="Apr">
+    <value>AVR</value>
+  </data>
+  <data name="Aug">
+    <value>AOU</value>
+  </data>
+  <data name="AutoCalc">
+    <value>Auto Calc</value>
+  </data>
+  <data name="BasicForm">
+    <value>Forme de base</value>
+  </data>
+  <data name="BD">
+    <value>PC</value>
+  </data>
+  <data name="Beef">
+    <value>Bovin de boucherie</value>
+  </data>
+  <data name="BF">
+    <value>FB</value>
+  </data>
+  <data name="BillingInformation">
+    <value>Information de facturation</value>
+  </data>
+  <data name="BodyDepth">
+    <value>Profondeur du corps</value>
+  </data>
+  <data name="Both">
+    <value>Les deux</value>
+  </data>
+  <data name="Brd">
+    <value>Rac</value>
+  </data>
+  <data name="BrdCtryRegError">
+    <value>Les numéraux de race, de pays et d'enregistrement sont requis pour continuer.</value>
+  </data>
+  <data name="BreedsDownloaded">
+    <value>Les races sont téléchargées.</value>
+  </data>
+  <data name="BreedsDownloadedAlert">
+    <value>Êtes-vous sûr que vous voulez télécharger les races?</value>
+  </data>
+  <data name="BreedsDownloadedError">
+    <value>Incapable de télécharger les races. Veuillez réessayer plus tard.</value>
+  </data>
+  <data name="BusinessPhone">
+    <value>Téléphone d'affaire</value>
+  </data>
+  <data name="Call">
+    <value>Appel</value>
+  </data>
+  <data name="Cancel">
+    <value>Annuler</value>
+  </data>
+  <data name="CellPhone">
+    <value>Téléphone cellulaire</value>
+  </data>
+  <data name="ChangeSelectedCowsGamePlan">
+    <value>Voulez-vous jumeler les vaches sélectionnées à la stratégie?</value>
+  </data>
+  <data name="ChooseLoginMessage">
+    <value>Veuillez choisir une option de connexion.</value>
+  </data>
+  <data name="City">
+    <value>Ville</value>
+  </data>
+  <data name="City*">
+    <value>Ville*</value>
+  </data>
+  <data name="Clear">
+    <value>Supprimer</value>
+  </data>
+  <data name="ClearAll">
+    <value>Supprimer au complet</value>
+  </data>
+  <data name="Components">
+    <value>Composantes </value>
+  </data>
+  <data name="Confirm">
+    <value>Confirmer</value>
+  </data>
+  <data name="ConnectionFailure">
+    <value>Vous devez disposer d'une connexion internet pour procéder.</value>
+  </data>
+  <data name="ContactName">
+    <value>Nom de contact</value>
+  </data>
+  <data name="ContactPhones">
+    <value>Téléphones de contact</value>
+  </data>
+  <data name="ControlNumber">
+    <value>Numéro de contrôle</value>
+  </data>
+  <data name="CountriesDownloadAlert">
+    <value>Êtes-vous sûr que vous voulez télécharger les pays?</value>
+  </data>
+  <data name="CountriesDownloaded">
+    <value>Les pays ont été téléchargés.</value>
+  </data>
+  <data name="CountriesDownloadedError">
+    <value>Incapable de télécharger les pays. Veuillez réessayer plus tard. </value>
+  </data>
+  <data name="Country*">
+    <value>Pays*</value>
+  </data>
+  <data name="Cow">
+    <value>Vache </value>
+  </data>
+  <data name="CowId">
+    <value>Id de la vache</value>
+  </data>
+  <data name="CowName">
+    <value>Nom de la vache</value>
+  </data>
+  <data name="Cows">
+    <value>Vaches</value>
+  </data>
+  <data name="CowsMovedToBottom">
+    <value>Non déplacé au haut</value>
+  </data>
+  <data name="CowsMovedToTop">
+    <value>Déplacé au haut</value>
+  </data>
+  <data name="CowsNotFound">
+    <value>Si vous ajoutez une nouvelle vache avec le nom recherché, veuillez vous assurer que le nom soit épelé correctement.</value>
+  </data>
+  <data name="CowsSaved">
+    <value>{0} vaches ont été sauvegardées. {1} vaches avaient des données incorrectes et n'ont pas été sauvegardées. </value>
+  </data>
+  <data name="Create">
+    <value>Créer</value>
+  </data>
+  <data name="CreateMAPPrimaryList">
+    <value>Créer la liste primaire</value>
+  </data>
+  <data name="CreateMAPPrimaryListRemove">
+    <value>Êtes-vous sûr que vous voulez supprimer {0} de la liste primaire?</value>
+  </data>
+  <data name="CRI">
+    <value>CRI</value>
+  </data>
+  <data name="Ctry">
+    <value>Pays</value>
+  </data>
+  <data name="CustomerAddedError">
+    <value>Le client n'a pas été ajouté à votre liste de clientèle. Veuillez réessayer plus tard.</value>
+  </data>
+  <data name="CustomerAddedToList">
+    <value>Le client a été ajouté à votre liste de clientèle. </value>
+  </data>
+  <data name="CustomerAPartOfList">
+    <value>Ce client fait déjà partie de votre liste de clientèle. </value>
+  </data>
+  <data name="CustomerContactInformation">
+    <value>Renseignements du client</value>
+  </data>
+  <data name="CustomerCreatedSuccessfully">
+    <value>Le profil du client a été créé avec succès</value>
+  </data>
+  <data name="CustomerMenu">
+    <value>Menu du client</value>
+  </data>
+  <data name="CustomerNameNotMatching">
+    <value>Le numéro entré ne correspond pas à {0}. Le nom du client correspondant au numéro entré est {1}. Désirez-vous continuer? </value>
+  </data>
+  <data name="CustomerNumberDoesNotExistError">
+    <value>Le numéro entré ne correspond pas aux clients dans le système.</value>
+  </data>
+  <data name="CustomerSaveFail">
+    <value>Le client n'a pas été sauvegardé avec succès, veuillez communiquez avec le bureau d'aide CRI IT au 715-526-7571. </value>
+  </data>
+  <data name="CustomerSearch">
+    <value>Recherche du client</value>
+  </data>
+  <data name="CustomizeFastScoreTraitOrder">
+    <value>Personnaliser l'ordre des caractères pour évaluation rapide</value>
+  </data>
+  <data name="Dairy">
+    <value>Laitier</value>
+  </data>
+  <data name="Dairyness">
+    <value>Qualité laitière</value>
+  </data>
+  <data name="DamReg">
+    <value>Enr. Mère</value>
+  </data>
+  <data name="Dec">
+    <value>DEC</value>
+  </data>
+  <data name="Delete">
+    <value>Supprimer</value>
+  </data>
+  <data name="DeleteAdd">
+    <value>Supprimer/Ajouter</value>
+  </data>
+  <data name="Deleted">
+    <value>Supprimer:</value>
+  </data>
+  <data name="DeleteHerd">
+    <value>Voulez-vous supprimer ce troupeau de votre système?</value>
+  </data>
+  <data name="DeleteSelectedCows">
+    <value>Voulez-vous supprimer les vaches sélectionnées?</value>
+  </data>
+  <data name="DeselectAll">
+    <value>Désélectionner Tous</value>
+  </data>
+  <data name="DF">
+    <value>Forme laitière</value>
+  </data>
+  <data name="DialNumber">
+    <value>Composer un numéro</value>
+  </data>
+  <data name="DIM">
+    <value>JEL</value>
+  </data>
+  <data name="DownloadBreeds">
+    <value>Télécharger les Races</value>
+  </data>
+  <data name="DownloadCountries">
+    <value>Télécharger les Pays</value>
+  </data>
+  <data name="Downloaded">
+    <value>Télécharger</value>
+  </data>
+  <data name="DownloadGamePlans">
+    <value>Télécharger les Stratégies</value>
+  </data>
+  <data name="DownloadHerdWhileCheckedOut">
+    <value>Ce troupeau est déjà utilisé par l'utilisateur inscrit ci-dessous. Êtes-vous sûr que vous voulez continuer?</value>
+  </data>
+  <data name="DoYouWantToDelete">
+    <value>Voulez-vous supprimer?</value>
+  </data>
+  <data name="DoYouWantToUndelete">
+    <value>Voulez-vous annuler la suppression?</value>
+  </data>
+  <data name="EartagReg">
+    <value>Étiquette d'oreille/# d'enr</value>
+  </data>
+  <data name="EditPedigree">
+    <value>Modifier les généalogies</value>
+  </data>
+  <data name="Email">
+    <value>Courriel</value>
+  </data>
+  <data name="Employee">
+    <value>Employé</value>
+  </data>
+  <data name="Employees">
+    <value>Employés</value>
+  </data>
+  <data name="EnterNumber">
+    <value>Entrer le numéro</value>
+  </data>
+  <data name="ERPCustomerSearch">
+    <value>Recherche du client ERP</value>
+  </data>
+  <data name="Express">
+    <value>Précis</value>
+  </data>
+  <data name="ExpressError">
+    <value>Vous avez sélectionné  MAP Précis Conformation. Vous n'avez pas de caractères de choisis.  Êtes-vous sûr que vous voulez sauvegarder?</value>
+  </data>
+  <data name="FA">
+    <value>AP</value>
+  </data>
+  <data name="Facebook">
+    <value>Facebook</value>
+  </data>
+  <data name="FastScore">
+    <value>Évaluation Rapide</value>
+  </data>
+  <data name="FastScorePrimaryCows">
+    <value>Évaluation Rapide / Vaches Primaires</value>
+  </data>
+  <data name="FatPercent">
+    <value>Pourcentage du Gras</value>
+  </data>
+  <data name="Feb">
+    <value>FEV</value>
+  </data>
+  <data name="FillAll">
+    <value>Remplir au complet</value>
+  </data>
+  <data name="Filter">
+    <value>Filtrer</value>
+  </data>
+  <data name="FootAngle">
+    <value>Angle du pied</value>
+  </data>
+  <data name="ForeUdderAttachment">
+    <value>Attache avant</value>
+  </data>
+  <data name="FP">
+    <value>PG</value>
+  </data>
+  <data name="FU">
+    <value>AA</value>
+  </data>
+  <data name="FullName*">
+    <value>Nom Complet*</value>
+  </data>
+  <data name="GamePlan">
+    <value>Stratégie</value>
+  </data>
+  <data name="GamePlan*">
+    <value>Stratégie*</value>
+  </data>
+  <data name="GamePlanCodesAlert">
+    <value>Êtes-vous sûr que vous voulez télécharger les stratégies?</value>
+  </data>
+  <data name="GamePlanCodesDownloaded">
+    <value>Les stratégies ont été téléchargées.</value>
+  </data>
+  <data name="GamePlanCodesDownloadedError">
+    <value>Incapable de télécharger les codes de stratégies. Veuillez réessayer plus tard.</value>
+  </data>
+  <data name="Genomic">
+    <value>Génomique</value>
+  </data>
+  <data name="GettingBreed">
+    <value>Aucune race de retrouvée. Veuillez réessayer plus tard.</value>
+  </data>
+  <data name="GettingCountry">
+    <value>Aucun pays de retrouvé.  Veuillez réessayer plus tard.</value>
+  </data>
+  <data name="GettingCowPedigreeInfo">
+    <value>Incapable de récupérer les renseignements généalogiques.</value>
+  </data>
+  <data name="Google">
+    <value>Google</value>
+  </data>
+  <data name="GoToTop">
+    <value>Aller vers le haut</value>
+  </data>
+  <data name="GP">
+    <value>Strat.</value>
+  </data>
+  <data name="Help">
+    <value>Aide</value>
+  </data>
+  <data name="HerdCounts">
+    <value>Compte des troupeaux</value>
+  </data>
+  <data name="Hide">
+    <value>Cacher</value>
+  </data>
+  <data name="High">
+    <value>Élevé</value>
+  </data>
+  <data name="Horizons">
+    <value>Horizons</value>
+  </data>
+  <data name="InternationalDistributor">
+    <value>Distributeur international</value>
+  </data>
+  <data name="InternationalDistributors">
+    <value>Distributeurs internationaux</value>
+  </data>
+  <data name="InvalidCountry">
+    <value>Code de pays invalide</value>
+  </data>
+  <data name="InvalidRegion">
+    <value>Région invalide</value>
+  </data>
+  <data name="Jan">
+    <value>JAN</value>
+  </data>
+  <data name="Jul">
+    <value>JUL</value>
+  </data>
+  <data name="Jun">
+    <value>JUI</value>
+  </data>
+  <data name="Lactation">
+    <value>Lactation</value>
+  </data>
+  <data name="LegalName*">
+    <value>Nom légal*</value>
+  </data>
+  <data name="LegsRearView">
+    <value>Position Membres Arrière</value>
+  </data>
+  <data name="LegsSideView">
+    <value>Vue Côté- Membres Arrière</value>
+  </data>
+  <data name="Linear">
+    <value>Linéaire</value>
+  </data>
+  <data name="LinearError">
+    <value>Vous avez sélectionné la fonction Linear MAP sans remplir tous les caractères.  Êtes-vous sûr que vous voulez sauvegarder?</value>
+  </data>
+  <data name="Login">
+    <value>Login</value>
+  </data>
+  <data name="LoginExpired">
+    <value>Votre connexion est expirée. Réeffectuez votre login.</value>
+  </data>
+  <data name="LoginFail">
+    <value>Incapable de connecter. Veuillez réessayer plus tard. Veuillez communiquer avec le bureau d'aide CRI IT au helpdesk@crinet.com si l'erreur se poursuit.</value>
+  </data>
+  <data name="Logout">
+    <value>Déconnecter</value>
+  </data>
+  <data name="LogoutConfirmation">
+    <value>Êtes-vous sûr que vous voulez vous déconnecter? Accès à l'internet est nécessaire pour vous reconnecter.  </value>
+  </data>
+  <data name="Low">
+    <value>Faible</value>
+  </data>
+  <data name="LR">
+    <value>MA</value>
+  </data>
+  <data name="LS">
+    <value>MC</value>
+  </data>
+  <data name="MakeCustomerMAPCustomer">
+    <value>Créer MAP Client</value>
+  </data>
+  <data name="MAP">
+    <value>MAP</value>
+  </data>
+  <data name="MappingMonths">
+    <value>Traçage Mois</value>
+  </data>
+  <data name="MapType">
+    <value>MAP Conformation*</value>
+  </data>
+  <data name="MapTypePicker">
+    <value>Traçage Conformation:</value>
+  </data>
+  <data name="Mar">
+    <value>MAR</value>
+  </data>
+  <data name="MassPedigreePrimaryCows">
+    <value>Groupe entier de Généalogies avec vaches primaires</value>
+  </data>
+  <data name="MatingPriority">
+    <value>Accouplement prioritaire</value>
+  </data>
+  <data name="May">
+    <value>MAI</value>
+  </data>
+  <data name="Medium">
+    <value>Médium</value>
+  </data>
+  <data name="MGGS">
+    <value>AGPM</value>
+  </data>
+  <data name="MGS">
+    <value>GPM</value>
+  </data>
+  <data name="Microsoft">
+    <value>Microsoft</value>
+  </data>
+  <data name="MilkingSpeed">
+    <value>Vitesse de traite</value>
+  </data>
+  <data name="MoveSelectedCowsToBottom">
+    <value>Voulez-vous déplacer les vaches sélectionnées au bas de la liste?</value>
+  </data>
+  <data name="MoveSelectedCowsToTop">
+    <value>Voulez-vous déplacer les vaches sélectionnées au haut de la liste?</value>
+  </data>
+  <data name="MoveToBottom">
+    <value>Déplacer au bas</value>
+  </data>
+  <data name="MoveToTop">
+    <value>Déplacer au haut</value>
+  </data>
+  <data name="MP">
+    <value>AP</value>
+  </data>
+  <data name="MS">
+    <value>VT</value>
+  </data>
+  <data name="MultipleUsersError">
+    <value>Ce compte est associé à un employé et à un distributeur international. Vous désirez vous connecter à quel compte?</value>
+  </data>
+  <data name="MultiSelect">
+    <value>Multi Sélect</value>
+  </data>
+  <data name="MustBeANumber">
+    <value>Doit utiliser un chiffre</value>
+  </data>
+  <data name="NAABError">
+    <value>NAAB incomplet</value>
+  </data>
+  <data name="Name">
+    <value>Nom</value>
+  </data>
+  <data name="Name*">
+    <value>Nom*</value>
+  </data>
+  <data name="NameRequired">
+    <value>*Nom est requis</value>
+  </data>
+  <data name="New">
+    <value>Nouveau:</value>
+  </data>
+  <data name="NewCustomer">
+    <value>Nouveau Client</value>
+  </data>
+  <data name="Next">
+    <value>Suivant&gt;</value>
+  </data>
+  <data name="No">
+    <value>Aucun</value>
+  </data>
+  <data name="NoBreeds">
+    <value>Aucune race, veuillez mettre à jour les races.</value>
+  </data>
+  <data name="NoCountries">
+    <value>Aucun pays, veuillez mettre à jour les pays.</value>
+  </data>
+  <data name="NoCowsFound">
+    <value>Aucune vache de retrouvée.</value>
+  </data>
+  <data name="NoDataChanges">
+    <value>Aucun changement de détecté pour sauvegarder.</value>
+  </data>
+  <data name="NoGamePlans">
+    <value>Aucune stratégie, veuillez mettre à jour les stratégies.</value>
+  </data>
+  <data name="NoInternet">
+    <value>Accès à l'internet n'est pas disponible. Veuillez vous connecter là où le service est disponible.</value>
+  </data>
+  <data name="None">
+    <value>Aucun</value>
+  </data>
+  <data name="Notes">
+    <value>Notes</value>
+  </data>
+  <data name="NoTransactionError">
+    <value>Aucune donnée à synch. Noter: Les données sont synchronisées activement lorsque connecté au Wi-Fi</value>
+  </data>
+  <data name="Nov">
+    <value>NOV</value>
+  </data>
+  <data name="NoWorstFault">
+    <value>Pas de défauts majeurs</value>
+  </data>
+  <data name="NumberTooLong">
+    <value>Les chiffres sont trop nombreux</value>
+  </data>
+  <data name="NumberTooShort">
+    <value>Nombre de chiffres est insuffisant</value>
+  </data>
+  <data name="Oct">
+    <value>OCT</value>
+  </data>
+  <data name="Okay">
+    <value>Ok</value>
+  </data>
+  <data name="OldCustomerNumber">
+    <value>Ancien numéro du client:</value>
+  </data>
+  <data name="Oops">
+    <value>Oups!</value>
+  </data>
+  <data name="OR">
+    <value>OU</value>
+  </data>
+  <data name="OutsideArea">
+    <value>À l'extérieur des bureaux de ventes/Groupe</value>
+  </data>
+  <data name="Pedigree">
+    <value>Généalogie</value>
+  </data>
+  <data name="PedigreeEdit">
+    <value>Modification à la Généalogie</value>
+  </data>
+  <data name="PedigreeError">
+    <value>Vous avez sélectionné MAP conformation mais vous n'avez pas de renseignements généalogiques. Êtes-vous sûr que vous voulez sauvegarder?</value>
+  </data>
+  <data name="PedigreesSaved">
+    <value>La sauvegarde des généalogies a été effectuée avec succès.</value>
+  </data>
+  <data name="PhoneDialError">
+    <value>Nous éprouvons de la difficulté à composer ce numéro#. Veuillez réessayer plus tard.  Veuillez communiquer avec le bureau d'aide CRI IT au helpdesk@crinet.com si l'erreur se poursuit. </value>
+  </data>
+  <data name="PhoneNumberError">
+    <value>Un numéro de téléphone, soit de bureau ou de cellulaire est requis. </value>
+  </data>
+  <data name="PixCow">
+    <value>Pix Vache</value>
+  </data>
+  <data name="PostalCode">
+    <value>Code Postale</value>
+  </data>
+  <data name="PP">
+    <value>PP</value>
+  </data>
+  <data name="Prev">
+    <value>Pré</value>
+  </data>
+  <data name="Primary">
+    <value>Primaire</value>
+  </data>
+  <data name="PrimaryListSearchResult">
+    <value>Vache(s) retrouvée(s) - Sélectionnez la vache à ajouter à la liste. </value>
+  </data>
+  <data name="Priority">
+    <value>Prioritaire</value>
+  </data>
+  <data name="Processed">
+    <value>Traité</value>
+  </data>
+  <data name="ProteinPercent">
+    <value>Pourcentage de la Protéine</value>
+  </data>
+  <data name="RearUdderHeight">
+    <value>Hauteur Attache Arrière</value>
+  </data>
+  <data name="RearUdderWidth">
+    <value>Largeur Attache Arrière</value>
+  </data>
+  <data name="Reg">
+    <value>Rég</value>
+  </data>
+  <data name="Region">
+    <value>Région</value>
+  </data>
+  <data name="Region*">
+    <value>Région*</value>
+  </data>
+  <data name="RegistrationError">
+    <value>Enregistrement incomplet.</value>
+  </data>
+  <data name="Remove">
+    <value>Éliminer</value>
+  </data>
+  <data name="RemoveHerdError">
+    <value>Il y a un problème avec l'élimination du troupeau de votre dispositif. Veuillez réessayer plus tard.  Veuillez communiquer avec le bureau d'aide CRI IT au helpdesk@crinet.com si l'erreur se poursuit. </value>
+  </data>
+  <data name="RemoveHerdFromDevice">
+    <value>Supprimer le troupeau du dispositif</value>
+  </data>
+  <data name="RemoveOutsideCustomerFromDevice">
+    <value>Supprimer le client de l'extérieur du dispositif</value>
+  </data>
+  <data name="RequestHerd">
+    <value>Demande de troupeau</value>
+  </data>
+  <data name="Required">
+    <value>Ce champ est obligatoire</value>
+  </data>
+  <data name="RequiredFields">
+    <value>Ces champs sont obligatoires</value>
+  </data>
+  <data name="Reset">
+    <value>Réinitialiser</value>
+  </data>
+  <data name="RetrieveCowsError">
+    <value>Incapable de récupérer les vaches.  Veuillez réessayer plus tard.</value>
+  </data>
+  <data name="RetrieveCustomersError">
+    <value>Incapable de régénérer la liste de client.  Veuillez réessayer plus tard.</value>
+  </data>
+  <data name="RH">
+    <value>HA</value>
+  </data>
+  <data name="RS">
+    <value>AC</value>
+  </data>
+  <data name="RU">
+    <value>LA</value>
+  </data>
+  <data name="RumpSideView">
+    <value>Angle de la croupe</value>
+  </data>
+  <data name="RumpWidth">
+    <value>Largeur de la croupe</value>
+  </data>
+  <data name="RW">
+    <value>LC</value>
+  </data>
+  <data name="SameBillingAddress">
+    <value>Même renseignements que les renseignements de facturation</value>
+  </data>
+  <data name="SameShippingAddress">
+    <value>Même adresse d'expédition</value>
+  </data>
+  <data name="Save">
+    <value>Sauvegarder</value>
+  </data>
+  <data name="SaveAndBack">
+    <value>Sauvegarder et retourner</value>
+  </data>
+  <data name="SaveChanges">
+    <value>Voulez-vous sauvegarder vos changements?</value>
+  </data>
+  <data name="SaveComplete">
+    <value>Sauvegarde est complétée</value>
+  </data>
+  <data name="SaveCowsPedigrees">
+    <value>Sauvegarder les généalogies de vaches</value>
+  </data>
+  <data name="SaveError">
+    <value>Veuillez vérifier vos données et réessayer.</value>
+  </data>
+  <data name="SavingPedigreesError">
+    <value>Les généalogies n'ont pas été sauvegardées. Veuillez vérifier vos données et réessayer.</value>
+  </data>
+  <data name="Scheduled">
+    <value>Programmer</value>
+  </data>
+  <data name="ScoreScale">
+    <value>Échelle d'évaluation</value>
+  </data>
+  <data name="Search">
+    <value>Recherche</value>
+  </data>
+  <data name="SearchCowListBy">
+    <value>Rechercher la liste de vaches selon:</value>
+  </data>
+  <data name="Secondary">
+    <value>Secondaire/Reste</value>
+  </data>
+  <data name="SelectAGamePlan">
+    <value>Sélectionnez une stratégie:</value>
+  </data>
+  <data name="SelectAll">
+    <value>Sélectionnez Tous</value>
+  </data>
+  <data name="SelectAllConfirm">
+    <value>Vous êtes sur le point de sélectionner ou de désélectionner Tous animaux, désirez-vous continuer?</value>
+  </data>
+  <data name="SelectMultipleCows">
+    <value>Sélectionner Vaches Multiples</value>
+  </data>
+  <data name="SendContactEmailError">
+    <value>Il y a un problème avec l'ouverture d'un nouveau courriel. Veuillez réessayer plus tard.  Veuillez communiquer avec le bureau d'aide CRI IT au helpdesk@crinet.com si l'erreur se poursuit.</value>
+  </data>
+  <data name="SendEmail">
+    <value>Envoyez un courriel</value>
+  </data>
+  <data name="Sep">
+    <value>SEP</value>
+  </data>
+  <data name="ShippingCustomer">
+    <value>Renseignements d'expédition</value>
+  </data>
+  <data name="ShippingInformation">
+    <value>Renseignements d'expédition</value>
+  </data>
+  <data name="ShowMore">
+    <value>Plus</value>
+  </data>
+  <data name="ShowProcessed">
+    <value>Montrer informations traitées</value>
+  </data>
+  <data name="ShowUnprocessed">
+    <value>Montrer informations non traitées</value>
+  </data>
+  <data name="Sire">
+    <value>Taureau</value>
+  </data>
+  <data name="SireCode">
+    <value>Code du taureau</value>
+  </data>
+  <data name="SL">
+    <value>SL</value>
+  </data>
+  <data name="SQLliteError">
+    <value>Incapable de lire les fichiers sauvegardés. Veuillez communiquer avec le bureau d'aide CRI IT au 715-526-7571 si l'erreur se poursuit.</value>
+  </data>
+  <data name="ST">
+    <value>ST</value>
+  </data>
+  <data name="State*">
+    <value>État*</value>
+  </data>
+  <data name="Stature">
+    <value>Stature</value>
+  </data>
+  <data name="Stud">
+    <value>Centre d'insémination</value>
+  </data>
+  <data name="StudBrdSireCodeError">
+    <value>Centre d'insémination, Race, Code de Taureau sont requis afin de poursuivre.</value>
+  </data>
+  <data name="Success">
+    <value>Succès</value>
+  </data>
+  <data name="SuspensoryLigament">
+    <value>Suspension  médiane</value>
+  </data>
+  <data name="SwitchToBrdCtryReg">
+    <value>Changer à Race/Pays/Enr</value>
+  </data>
+  <data name="SwitchToStudBrdSire">
+    <value>Changer à C.I./Race/CodeTaur</value>
+  </data>
+  <data name="SyncAll">
+    <value>Sync Tous</value>
+  </data>
+  <data name="SyncSettingsMenu">
+    <value>Sync/Menu des paramètres</value>
+  </data>
+  <data name="SyncSuccessfully">
+    <value>La synchronisation de vos transactions est effectuée avec succès</value>
+  </data>
+  <data name="SyncTransactionsError">
+    <value>Incapable de synchroniser vos transactions.  Veuillez réessayer plus tard.</value>
+  </data>
+  <data name="TeatLength">
+    <value>Longueur des Trayons</value>
+  </data>
+  <data name="TeatPlacement">
+    <value>Position des Trayons</value>
+  </data>
+  <data name="Temperament">
+    <value>Tempérament</value>
+  </data>
+  <data name="TL">
+    <value>LT</value>
+  </data>
+  <data name="TM">
+    <value>TP</value>
+  </data>
+  <data name="Total">
+    <value>Total:</value>
+  </data>
+  <data name="TP">
+    <value>PT</value>
+  </data>
+  <data name="Traits">
+    <value>Caractères</value>
+  </data>
+  <data name="UD">
+    <value>PP</value>
+  </data>
+  <data name="UdderDepth">
+    <value>Profondeur du pis</value>
+  </data>
+  <data name="UnableFindCustomer">
+    <value>Incapable de retrouver le client?</value>
+  </data>
+  <data name="UnableToLoadERPCustomers">
+    <value>Incapable de télécharger les clients SAP. Veuillez réessayer plus tard. </value>
+  </data>
+  <data name="UndeleteSelectedCows">
+    <value>Voulez-vous annuler la suppression des vaches sélectionnées?</value>
+  </data>
+  <data name="UniqueNameEartagError">
+    <value>Le Nom et l'Étiquette d'oreille doivent être uniques au client.</value>
+  </data>
+  <data name="Unprocessed">
+    <value>Non traité</value>
+  </data>
+  <data name="UpdateCustomerNumber">
+    <value>Mettre à jour le Numéro du Client</value>
+  </data>
+  <data name="UpdateCustomerNumberError">
+    <value>Incapable de mettre à jour le numéro.</value>
+  </data>
+  <data name="Updated">
+    <value>Mis à jour:</value>
+  </data>
+  <data name="UserSetupFail">
+    <value>La configuration n'a pas été effectuée avec succès après la connexion de l'utilisateur.  Veuillez réessayer plus tard. Veuillez communiquer avec le bureau d'aide au helpdesk@crinet.com si le problème se poursuit. </value>
+  </data>
+  <data name="ValueTooLong">
+    <value>La valeur entrée est trop longue.</value>
+  </data>
+  <data name="ValueTooShort">
+    <value>La valeur entrée est trop courte.</value>
+  </data>
+  <data name="WC">
+    <value>LP</value>
+  </data>
+  <data name="WF">
+    <value>GF</value>
+  </data>
+  <data name="WhichScoreScale">
+    <value>Quelle échelle d'évaluation devrait être utilisée?</value>
+  </data>
+  <data name="WidthOfChest">
+    <value>Largeur du poitrail</value>
+  </data>
+  <data name="WiFiOnly">
+    <value>WiFi Seulement</value>
+  </data>
+  <data name="WiFiOnlyError">
+    <value>Le WiFI Seulement est activé. Désactiver pour continuer ou branchez vous à une source WiFi. </value>
+  </data>
+  <data name="WorstFault">
+    <value>Plus grande faute</value>
+  </data>
+  <data name="Yes">
+    <value>Oui</value>
+  </data>
+  <data name="ZeroBreedsInDBError">
+    <value>Aucune race dans la base de données.  Veuillez télécharger les races à nouveau. </value>
+  </data>
+  <data name="ZeroCountriesInDBError">
+    <value>Aucun pays dans la base de données.  Veuillez télécharger les pays à nouveau.</value>
+  </data>
+  <data name="ZeroGamePlanCodesInDBError" xml:space="preserve">
+    <value>Aucun code de stratégies dans la base de données. Veuillez télécharger les Codes de Stratégies à nouveau. </value>
+  </data>
+  <data name="1">
+    <value>1</value>
+  </data>
+  <data name="1-50">
+    <value>1-50</value>
+  </data>
+  <data name="1-9">
+    <value>1-9</value>
+  </data>
+  <data name="2">
+    <value>2</value>
+  </data>
+  <data name="3">
+    <value>3</value>
+  </data>
+  <data name="4">
+    <value>4</value>
+  </data>
+  <data name="AccessDenied">
+    <value>Accès Interdit</value>
+  </data>
+  <data name="AddCow">
+    <value>Ajouter la vache</value>
+  </data>
+  <data name="AddCowNotFound">
+    <value>Ajoutez la vache. Si vous ajoutez une vache au nom que vous recherchez, veuillez vous assurez que le nom est bien épelé.</value>
+  </data>
+  <data name="AddCustomer">
+    <value>Ajouter le client</value>
+  </data>
+  <data name="AddCustomerToListAlert">
+    <value>Êtes-vous sûr que vous voulez ajouter ce client à votre liste? En ajoutant ce client vous téléchargerez automatiquement son troupeau, cela peut durer plusieurs minutes. </value>
+  </data>
+  <data name="AddEditCowSearchResult">
+    <value>Vache(s) retrouvée(s) - Sélectionnez la vache à télécharger. </value>
+  </data>
+  <data name="AddNew">
+    <value>Ajoutez la nouvelle vache</value>
+  </data>
+  <data name="AddNewCustomer">
+    <value>Ajoutez le nouveau client</value>
+  </data>
+  <data name="AddressLine1">
+    <value>Adresse ligne 1</value>
+  </data>
+  <data name="AddressLine1*">
+    <value>Adresse ligne 1*</value>
+  </data>
+  <data name="AddressLine2">
+    <value>Adresse ligne 2</value>
+  </data>
+  <data name="AddressLine3">
+    <value>Adresse ligne 3</value>
+  </data>
+  <data name="AddressLine4">
+    <value>Adresse ligne 4</value>
+  </data>
+  <data name="AddToCustomerList">
+    <value>Ajoutez à la liste des clients</value>
+  </data>
+  <data name="Age">
+    <value>Âge</value>
+  </data>
+  <data name="Alert">
+    <value>Alerte</value>
+  </data>
+  <data name="AlertCowsSelected">
+    <value>Il n'y a pas de vaches de sélectionnées.</value>
+  </data>
+  <data name="AlertGamePlanSelected">
+    <value>Il n'y a pas de stratégies de choisies.</value>
+  </data>
+  <data name="All">
+    <value>Tous</value>
+  </data>
+  <data name="AnimalsNotScored">
+    <value>Animaux sans pointage</value>
+  </data>
+  <data name="Apr">
+    <value>AVR</value>
+  </data>
+  <data name="Aug">
+    <value>AOU</value>
+  </data>
+  <data name="AutoCalc">
+    <value>Auto Calc</value>
+  </data>
+  <data name="BasicForm">
+    <value>Forme de base</value>
+  </data>
+  <data name="BD">
+    <value>PC</value>
+  </data>
+  <data name="Beef">
+    <value>Bovin de boucherie</value>
+  </data>
+  <data name="BF">
+    <value>FB</value>
+  </data>
+  <data name="BillingInformation">
+    <value>Information de facturation</value>
+  </data>
+  <data name="BodyDepth">
+    <value>Profondeur du corps</value>
+  </data>
+  <data name="Both">
+    <value>Les deux</value>
+  </data>
+  <data name="Brd">
+    <value>Rac</value>
+  </data>
+  <data name="BrdCtryRegError">
+    <value>Les numéraux de race, de pays et d'enregistrement sont requis pour continuer.</value>
+  </data>
+  <data name="BreedsDownloaded">
+    <value>Les races sont téléchargées.</value>
+  </data>
+  <data name="BreedsDownloadedAlert">
+    <value>Êtes-vous sûr que vous voulez télécharger les races?</value>
+  </data>
+  <data name="BreedsDownloadedError">
+    <value>Incapable de télécharger les races. Veuillez réessayer plus tard.</value>
+  </data>
+  <data name="BusinessPhone">
+    <value>Téléphone d'affaire</value>
+  </data>
+  <data name="Call">
+    <value>Appel</value>
+  </data>
+  <data name="Cancel">
+    <value>Annuler</value>
+  </data>
+  <data name="CellPhone">
+    <value>Téléphone cellulaire</value>
+  </data>
+  <data name="ChangeSelectedCowsGamePlan">
+    <value>Voulez-vous jumeler les vaches sélectionnées à la stratégie?</value>
+  </data>
+  <data name="ChooseLoginMessage">
+    <value>Veuillez choisir une option de connexion.</value>
+  </data>
+  <data name="City">
+    <value>Ville</value>
+  </data>
+  <data name="City*">
+    <value>Ville*</value>
+  </data>
+  <data name="Clear">
+    <value>Supprimer</value>
+  </data>
+  <data name="ClearAll">
+    <value>Supprimer au complet</value>
+  </data>
+  <data name="Components">
+    <value>Composantes </value>
+  </data>
+  <data name="Confirm">
+    <value>Confirmer</value>
+  </data>
+  <data name="ConnectionFailure">
+    <value>Vous devez disposer d'une connexion internet pour procéder.</value>
+  </data>
+  <data name="ContactName">
+    <value>Nom de contact</value>
+  </data>
+  <data name="ContactPhones">
+    <value>Téléphones de contact</value>
+  </data>
+  <data name="ControlNumber">
+    <value>Numéro de contrôle</value>
+  </data>
+  <data name="CountriesDownloadAlert">
+    <value>Êtes-vous sûr que vous voulez télécharger les pays?</value>
+  </data>
+  <data name="CountriesDownloaded">
+    <value>Les pays ont été téléchargés.</value>
+  </data>
+  <data name="CountriesDownloadedError">
+    <value>Incapable de télécharger les pays. Veuillez réessayer plus tard. </value>
+  </data>
+  <data name="Country*">
+    <value>Pays*</value>
+  </data>
+  <data name="Cow">
+    <value>Vache </value>
+  </data>
+  <data name="CowId">
+    <value>Id de la vache</value>
+  </data>
+  <data name="CowName">
+    <value>Nom de la vache</value>
+  </data>
+  <data name="Cows">
+    <value>Vaches</value>
+  </data>
+  <data name="CowsMovedToBottom">
+    <value>Non déplacé au haut</value>
+  </data>
+  <data name="CowsMovedToTop">
+    <value>Déplacé au haut</value>
+  </data>
+  <data name="CowsNotFound">
+    <value>Si vous ajoutez une nouvelle vache avec le nom recherché, veuillez vous assurer que le nom soit épelé correctement.</value>
+  </data>
+  <data name="CowsSaved">
+    <value>{0} vaches ont été sauvegardées. {1} vaches avaient des données incorrectes et n'ont pas été sauvegardées. </value>
+  </data>
+  <data name="Create">
+    <value>Créer</value>
+  </data>
+  <data name="CreateMAPPrimaryList">
+    <value>Créer la liste primaire</value>
+  </data>
+  <data name="CreateMAPPrimaryListRemove">
+    <value>Êtes-vous sûr que vous voulez supprimer {0} de la liste primaire?</value>
+  </data>
+  <data name="CRI">
+    <value>CRI</value>
+  </data>
+  <data name="Ctry">
+    <value>Pays</value>
+  </data>
+  <data name="CustomerAddedError">
+    <value>Le client n'a pas été ajouté à votre liste de clientèle. Veuillez réessayer plus tard.</value>
+  </data>
+  <data name="CustomerAddedToList">
+    <value>Le client a été ajouté à votre liste de clientèle. </value>
+  </data>
+  <data name="CustomerAPartOfList">
+    <value>Ce client fait déjà partie de votre liste de clientèle. </value>
+  </data>
+  <data name="CustomerContactInformation">
+    <value>Renseignements du client</value>
+  </data>
+  <data name="CustomerCreatedSuccessfully">
+    <value>Le profil du client a été créé avec succès</value>
+  </data>
+  <data name="CustomerMenu">
+    <value>Menu du client</value>
+  </data>
+  <data name="CustomerNameNotMatching">
+    <value>Le numéro entré ne correspond pas à {0}. Le nom du client correspondant au numéro entré est {1}. Désirez-vous continuer? </value>
+  </data>
+  <data name="CustomerNumberDoesNotExistError">
+    <value>Le numéro entré ne correspond pas aux clients dans le système.</value>
+  </data>
+  <data name="CustomerSaveFail">
+    <value>Le client n'a pas été sauvegardé avec succès, veuillez communiquez avec le bureau d'aide CRI IT au 715-526-7571. </value>
+  </data>
+  <data name="CustomerSearch">
+    <value>Recherche du client</value>
+  </data>
+  <data name="CustomizeFastScoreTraitOrder">
+    <value>Personnaliser l'ordre des caractères pour évaluation rapide</value>
+  </data>
+  <data name="Dairy">
+    <value>Laitier</value>
+  </data>
+  <data name="Dairyness">
+    <value>Qualité laitière</value>
+  </data>
+  <data name="DamReg">
+    <value>Enr. Mère</value>
+  </data>
+  <data name="Dec">
+    <value>DEC</value>
+  </data>
+  <data name="Delete">
+    <value>Supprimer</value>
+  </data>
+  <data name="DeleteAdd">
+    <value>Supprimer/Ajouter</value>
+  </data>
+  <data name="Deleted">
+    <value>Supprimer:</value>
+  </data>
+  <data name="DeleteHerd">
+    <value>Voulez-vous supprimer ce troupeau de votre système?</value>
+  </data>
+  <data name="DeleteSelectedCows">
+    <value>Voulez-vous supprimer les vaches sélectionnées?</value>
+  </data>
+  <data name="DeselectAll">
+    <value>Désélectionner Tous</value>
+  </data>
+  <data name="DF">
+    <value>Forme laitière</value>
+  </data>
+  <data name="DialNumber">
+    <value>Composer un numéro</value>
+  </data>
+  <data name="DIM">
+    <value>JEL</value>
+  </data>
+  <data name="DownloadBreeds">
+    <value>Télécharger les Races</value>
+  </data>
+  <data name="DownloadCountries">
+    <value>Télécharger les Pays</value>
+  </data>
+  <data name="Downloaded">
+    <value>Télécharger</value>
+  </data>
+  <data name="DownloadGamePlans">
+    <value>Télécharger les Stratégies</value>
+  </data>
+  <data name="DownloadHerdWhileCheckedOut">
+    <value>Ce troupeau est déjà utilisé par l'utilisateur inscrit ci-dessous. Êtes-vous sûr que vous voulez continuer?</value>
+  </data>
+  <data name="DoYouWantToDelete">
+    <value>Voulez-vous supprimer?</value>
+  </data>
+  <data name="DoYouWantToUndelete">
+    <value>Voulez-vous annuler la suppression?</value>
+  </data>
+  <data name="EartagReg">
+    <value>Étiquette d'oreille/# d'enr</value>
+  </data>
+  <data name="EditPedigree">
+    <value>Modifier les généalogies</value>
+  </data>
+  <data name="Email">
+    <value>Courriel</value>
+  </data>
+  <data name="Employee">
+    <value>Employé</value>
+  </data>
+  <data name="Employees">
+    <value>Employés</value>
+  </data>
+  <data name="EnterNumber">
+    <value>Entrer le numéro</value>
+  </data>
+  <data name="ERPCustomerSearch">
+    <value>Recherche du client ERP</value>
+  </data>
+  <data name="Express">
+    <value>Précis</value>
+  </data>
+  <data name="ExpressError">
+    <value>Vous avez sélectionné  MAP Précis Conformation. Vous n'avez pas de caractères de choisis.  Êtes-vous sûr que vous voulez sauvegarder?</value>
+  </data>
+  <data name="FA">
+    <value>AP</value>
+  </data>
+  <data name="Facebook">
+    <value>Facebook</value>
+  </data>
+  <data name="FastScore">
+    <value>Évaluation Rapide</value>
+  </data>
+  <data name="FastScorePrimaryCows">
+    <value>Évaluation Rapide / Vaches Primaires</value>
+  </data>
+  <data name="FatPercent">
+    <value>Pourcentage du Gras</value>
+  </data>
+  <data name="Feb">
+    <value>FEV</value>
+  </data>
+  <data name="FillAll">
+    <value>Remplir au complet</value>
+  </data>
+  <data name="Filter">
+    <value>Filtrer</value>
+  </data>
+  <data name="FootAngle">
+    <value>Angle du pied</value>
+  </data>
+  <data name="ForeUdderAttachment">
+    <value>Attache avant</value>
+  </data>
+  <data name="FP">
+    <value>PG</value>
+  </data>
+  <data name="FU">
+    <value>AA</value>
+  </data>
+  <data name="FullName*">
+    <value>Nom Complet*</value>
+  </data>
+  <data name="GamePlan">
+    <value>Stratégie</value>
+  </data>
+  <data name="GamePlan*">
+    <value>Stratégie*</value>
+  </data>
+  <data name="GamePlanCodesAlert">
+    <value>Êtes-vous sûr que vous voulez télécharger les stratégies?</value>
+  </data>
+  <data name="GamePlanCodesDownloaded">
+    <value>Les stratégies ont été téléchargées.</value>
+  </data>
+  <data name="GamePlanCodesDownloadedError">
+    <value>Incapable de télécharger les codes de stratégies. Veuillez réessayer plus tard.</value>
+  </data>
+  <data name="Genomic">
+    <value>Génomique</value>
+  </data>
+  <data name="GettingBreed">
+    <value>Aucune race de retrouvée. Veuillez réessayer plus tard.</value>
+  </data>
+  <data name="GettingCountry">
+    <value>Aucun pays de retrouvé.  Veuillez réessayer plus tard.</value>
+  </data>
+  <data name="GettingCowPedigreeInfo">
+    <value>Incapable de récupérer les renseignements généalogiques.</value>
+  </data>
+  <data name="Google">
+    <value>Google</value>
+  </data>
+  <data name="GoToTop">
+    <value>Aller vers le haut</value>
+  </data>
+  <data name="GP">
+    <value>Strat.</value>
+  </data>
+  <data name="Help">
+    <value>Aide</value>
+  </data>
+  <data name="HerdCounts">
+    <value>Compte des troupeaux</value>
+  </data>
+  <data name="Hide">
+    <value>Cacher</value>
+  </data>
+  <data name="High">
+    <value>Élevé</value>
+  </data>
+  <data name="Horizons">
+    <value>Horizons</value>
+  </data>
+  <data name="InternationalDistributor">
+    <value>Distributeur international</value>
+  </data>
+  <data name="InternationalDistributors">
+    <value>Distributeurs internationaux</value>
+  </data>
+  <data name="InvalidCountry">
+    <value>Code de pays invalide</value>
+  </data>
+  <data name="InvalidRegion">
+    <value>Région invalide</value>
+  </data>
+  <data name="Jan">
+    <value>JAN</value>
+  </data>
+  <data name="Jul">
+    <value>JUL</value>
+  </data>
+  <data name="Jun">
+    <value>JUI</value>
+  </data>
+  <data name="Lactation">
+    <value>Lactation</value>
+  </data>
+  <data name="LegalName*">
+    <value>Nom légal*</value>
+  </data>
+  <data name="LegsRearView">
+    <value>Position Membres Arrière</value>
+  </data>
+  <data name="LegsSideView">
+    <value>Vue Côté- Membres Arrière</value>
+  </data>
+  <data name="Linear">
+    <value>Linéaire</value>
+  </data>
+  <data name="LinearError">
+    <value>Vous avez sélectionné la fonction Linear MAP sans remplir tous les caractères.  Êtes-vous sûr que vous voulez sauvegarder?</value>
+  </data>
+  <data name="Login">
+    <value>Login</value>
+  </data>
+  <data name="LoginExpired">
+    <value>Votre connexion est expirée. Réeffectuez votre login.</value>
+  </data>
+  <data name="LoginFail">
+    <value>Incapable de connecter. Veuillez réessayer plus tard. Veuillez communiquer avec le bureau d'aide CRI IT au helpdesk@crinet.com si l'erreur se poursuit.</value>
+  </data>
+  <data name="Logout">
+    <value>Déconnecter</value>
+  </data>
+  <data name="LogoutConfirmation">
+    <value>Êtes-vous sûr que vous voulez vous déconnecter? Accès à l'internet est nécessaire pour vous reconnecter.  </value>
+  </data>
+  <data name="Low">
+    <value>Faible</value>
+  </data>
+  <data name="LR">
+    <value>MA</value>
+  </data>
+  <data name="LS">
+    <value>MC</value>
+  </data>
+  <data name="MakeCustomerMAPCustomer">
+    <value>Créer MAP Client</value>
+  </data>
+  <data name="MAP">
+    <value>MAP</value>
+  </data>
+  <data name="MappingMonths">
+    <value>Traçage Mois</value>
+  </data>
+  <data name="MapType">
+    <value>MAP Conformation*</value>
+  </data>
+  <data name="MapTypePicker">
+    <value>Traçage Conformation:</value>
+  </data>
+  <data name="Mar">
+    <value>MAR</value>
+  </data>
+  <data name="MassPedigreePrimaryCows">
+    <value>Groupe entier de Généalogies avec vaches primaires</value>
+  </data>
+  <data name="MatingPriority">
+    <value>Accouplement prioritaire</value>
+  </data>
+  <data name="May">
+    <value>MAI</value>
+  </data>
+  <data name="Medium">
+    <value>Médium</value>
+  </data>
+  <data name="MGGS">
+    <value>AGPM</value>
+  </data>
+  <data name="MGS">
+    <value>GPM</value>
+  </data>
+  <data name="Microsoft">
+    <value>Microsoft</value>
+  </data>
+  <data name="MilkingSpeed">
+    <value>Vitesse de traite</value>
+  </data>
+  <data name="MoveSelectedCowsToBottom">
+    <value>Voulez-vous déplacer les vaches sélectionnées au bas de la liste?</value>
+  </data>
+  <data name="MoveSelectedCowsToTop">
+    <value>Voulez-vous déplacer les vaches sélectionnées au haut de la liste?</value>
+  </data>
+  <data name="MoveToBottom">
+    <value>Déplacer au bas</value>
+  </data>
+  <data name="MoveToTop">
+    <value>Déplacer au haut</value>
+  </data>
+  <data name="MP">
+    <value>AP</value>
+  </data>
+  <data name="MS">
+    <value>VT</value>
+  </data>
+  <data name="MultipleUsersError">
+    <value>Ce compte est associé à un employé et à un distributeur international. Vous désirez vous connecter à quel compte?</value>
+  </data>
+  <data name="MultiSelect">
+    <value>Multi Sélect</value>
+  </data>
+  <data name="MustBeANumber">
+    <value>Doit utiliser un chiffre</value>
+  </data>
+  <data name="NAABError">
+    <value>NAAB incomplet</value>
+  </data>
+  <data name="Name">
+    <value>Nom</value>
+  </data>
+  <data name="Name*">
+    <value>Nom*</value>
+  </data>
+  <data name="NameRequired">
+    <value>*Nom est requis</value>
+  </data>
+  <data name="New">
+    <value>Nouveau:</value>
+  </data>
+  <data name="NewCustomer">
+    <value>Nouveau Client</value>
+  </data>
+  <data name="Next">
+    <value>Suivant&gt;</value>
+  </data>
+  <data name="No">
+    <value>Aucun</value>
+  </data>
+  <data name="NoBreeds">
+    <value>Aucune race, veuillez mettre à jour les races.</value>
+  </data>
+  <data name="NoCountries">
+    <value>Aucun pays, veuillez mettre à jour les pays.</value>
+  </data>
+  <data name="NoCowsFound">
+    <value>Aucune vache de retrouvée.</value>
+  </data>
+  <data name="NoDataChanges">
+    <value>Aucun changement de détecté pour sauvegarder.</value>
+  </data>
+  <data name="NoGamePlans">
+    <value>Aucune stratégie, veuillez mettre à jour les stratégies.</value>
+  </data>
+  <data name="NoInternet">
+    <value>Accès à l'internet n'est pas disponible. Veuillez vous connecter là où le service est disponible.</value>
+  </data>
+  <data name="None">
+    <value>Aucun</value>
+  </data>
+  <data name="Notes">
+    <value>Notes</value>
+  </data>
+  <data name="NoTransactionError">
+    <value>Aucune donnée à synch. Noter: Les données sont synchronisées activement lorsque connecté au Wi-Fi</value>
+  </data>
+  <data name="Nov">
+    <value>NOV</value>
+  </data>
+  <data name="NoWorstFault">
+    <value>Pas de défauts majeurs</value>
+  </data>
+  <data name="NumberTooLong">
+    <value>Les chiffres sont trop nombreux</value>
+  </data>
+  <data name="NumberTooShort">
+    <value>Nombre de chiffres est insuffisant</value>
+  </data>
+  <data name="Oct">
+    <value>OCT</value>
+  </data>
+  <data name="Okay">
+    <value>Ok</value>
+  </data>
+  <data name="OldCustomerNumber">
+    <value>Ancien numéro du client:</value>
+  </data>
+  <data name="Oops">
+    <value>Oups!</value>
+  </data>
+  <data name="OR">
+    <value>OU</value>
+  </data>
+  <data name="OutsideArea">
+    <value>À l'extérieur des bureaux de ventes/Groupe</value>
+  </data>
+  <data name="Pedigree">
+    <value>Généalogie</value>
+  </data>
+  <data name="PedigreeEdit">
+    <value>Modification à la Généalogie</value>
+  </data>
+  <data name="PedigreeError">
+    <value>Vous avez sélectionné MAP conformation mais vous n'avez pas de renseignements généalogiques. Êtes-vous sûr que vous voulez sauvegarder?</value>
+  </data>
+  <data name="PedigreesSaved">
+    <value>La sauvegarde des généalogies a été effectuée avec succès.</value>
+  </data>
+  <data name="PhoneDialError">
+    <value>Nous éprouvons de la difficulté à composer ce numéro#. Veuillez réessayer plus tard.  Veuillez communiquer avec le bureau d'aide CRI IT au helpdesk@crinet.com si l'erreur se poursuit. </value>
+  </data>
+  <data name="PhoneNumberError">
+    <value>Un numéro de téléphone, soit de bureau ou de cellulaire est requis. </value>
+  </data>
+  <data name="PixCow">
+    <value>Pix Vache</value>
+  </data>
+  <data name="PostalCode">
+    <value>Code Postale</value>
+  </data>
+  <data name="PP">
+    <value>PP</value>
+  </data>
+  <data name="Prev">
+    <value>Pré</value>
+  </data>
+  <data name="Primary">
+    <value>Primaire</value>
+  </data>
+  <data name="PrimaryListSearchResult">
+    <value>Vache(s) retrouvée(s) - Sélectionnez la vache à ajouter à la liste. </value>
+  </data>
+  <data name="Priority">
+    <value>Prioritaire</value>
+  </data>
+  <data name="Processed">
+    <value>Traité</value>
+  </data>
+  <data name="ProteinPercent">
+    <value>Pourcentage de la Protéine</value>
+  </data>
+  <data name="RearUdderHeight">
+    <value>Hauteur Attache Arrière</value>
+  </data>
+  <data name="RearUdderWidth">
+    <value>Largeur Attache Arrière</value>
+  </data>
+  <data name="Reg">
+    <value>Rég</value>
+  </data>
+  <data name="Region">
+    <value>Région</value>
+  </data>
+  <data name="Region*">
+    <value>Région*</value>
+  </data>
+  <data name="RegistrationError">
+    <value>Enregistrement incomplet.</value>
+  </data>
+  <data name="Remove">
+    <value>Éliminer</value>
+  </data>
+  <data name="RemoveHerdError">
+    <value>Il y a un problème avec l'élimination du troupeau de votre dispositif. Veuillez réessayer plus tard.  Veuillez communiquer avec le bureau d'aide CRI IT au helpdesk@crinet.com si l'erreur se poursuit. </value>
+  </data>
+  <data name="RemoveHerdFromDevice">
+    <value>Supprimer le troupeau du dispositif</value>
+  </data>
+  <data name="RemoveOutsideCustomerFromDevice">
+    <value>Supprimer le client de l'extérieur du dispositif</value>
+  </data>
+  <data name="RequestHerd">
+    <value>Demande de troupeau</value>
+  </data>
+  <data name="Required">
+    <value>Ce champ est obligatoire</value>
+  </data>
+  <data name="RequiredFields">
+    <value>Ces champs sont obligatoires</value>
+  </data>
+  <data name="Reset">
+    <value>Réinitialiser</value>
+  </data>
+  <data name="RetrieveCowsError">
+    <value>Incapable de récupérer les vaches.  Veuillez réessayer plus tard.</value>
+  </data>
+  <data name="RetrieveCustomersError">
+    <value>Incapable de régénérer la liste de client.  Veuillez réessayer plus tard.</value>
+  </data>
+  <data name="RH">
+    <value>HA</value>
+  </data>
+  <data name="RS">
+    <value>AC</value>
+  </data>
+  <data name="RU">
+    <value>LA</value>
+  </data>
+  <data name="RumpSideView">
+    <value>Angle de la croupe</value>
+  </data>
+  <data name="RumpWidth">
+    <value>Largeur de la croupe</value>
+  </data>
+  <data name="RW">
+    <value>LC</value>
+  </data>
+  <data name="SameBillingAddress">
+    <value>Même renseignements que les renseignements de facturation</value>
+  </data>
+  <data name="SameShippingAddress">
+    <value>Même adresse d'expédition</value>
+  </data>
+  <data name="Save">
+    <value>Sauvegarder</value>
+  </data>
+  <data name="SaveAndBack">
+    <value>Sauvegarder et retourner</value>
+  </data>
+  <data name="SaveChanges">
+    <value>Voulez-vous sauvegarder vos changements?</value>
+  </data>
+  <data name="SaveComplete">
+    <value>Sauvegarde est complétée</value>
+  </data>
+  <data name="SaveCowsPedigrees">
+    <value>Sauvegarder les généalogies de vaches</value>
+  </data>
+  <data name="SaveError">
+    <value>Veuillez vérifier vos données et réessayer.</value>
+  </data>
+  <data name="SavingPedigreesError">
+    <value>Les généalogies n'ont pas été sauvegardées. Veuillez vérifier vos données et réessayer.</value>
+  </data>
+  <data name="Scheduled">
+    <value>Programmer</value>
+  </data>
+  <data name="ScoreScale">
+    <value>Échelle d'évaluation</value>
+  </data>
+  <data name="Search">
+    <value>Recherche</value>
+  </data>
+  <data name="SearchCowListBy">
+    <value>Rechercher la liste de vaches selon:</value>
+  </data>
+  <data name="Secondary">
+    <value>Secondaire/Reste</value>
+  </data>
+  <data name="SelectAGamePlan">
+    <value>Sélectionnez une stratégie:</value>
+  </data>
+  <data name="SelectAll">
+    <value>Sélectionnez Tous</value>
+  </data>
+  <data name="SelectAllConfirm">
+    <value>Vous êtes sur le point de sélectionner ou de désélectionner Tous animaux, désirez-vous continuer?</value>
+  </data>
+  <data name="SelectMultipleCows">
+    <value>Sélectionner Vaches Multiples</value>
+  </data>
+  <data name="SendContactEmailError">
+    <value>Il y a un problème avec l'ouverture d'un nouveau courriel. Veuillez réessayer plus tard.  Veuillez communiquer avec le bureau d'aide CRI IT au helpdesk@crinet.com si l'erreur se poursuit.</value>
+  </data>
+  <data name="SendEmail">
+    <value>Envoyez un courriel</value>
+  </data>
+  <data name="Sep">
+    <value>SEP</value>
+  </data>
+  <data name="ShippingCustomer">
+    <value>Renseignements d'expédition</value>
+  </data>
+  <data name="ShippingInformation">
+    <value>Renseignements d'expédition</value>
+  </data>
+  <data name="ShowMore">
+    <value>Plus</value>
+  </data>
+  <data name="ShowProcessed">
+    <value>Montrer informations traitées</value>
+  </data>
+  <data name="ShowUnprocessed">
+    <value>Montrer informations non traitées</value>
+  </data>
+  <data name="Sire">
+    <value>Taureau</value>
+  </data>
+  <data name="SireCode">
+    <value>Code du taureau</value>
+  </data>
+  <data name="SL">
+    <value>SL</value>
+  </data>
+  <data name="SQLliteError">
+    <value>Incapable de lire les fichiers sauvegardés. Veuillez communiquer avec le bureau d'aide CRI IT au 715-526-7571 si l'erreur se poursuit.</value>
+  </data>
+  <data name="ST">
+    <value>ST</value>
+  </data>
+  <data name="State*">
+    <value>État*</value>
+  </data>
+  <data name="Stature">
+    <value>Stature</value>
+  </data>
+  <data name="Stud">
+    <value>Centre d'insémination</value>
+  </data>
+  <data name="StudBrdSireCodeError">
+    <value>Centre d'insémination, Race, Code de Taureau sont requis afin de poursuivre.</value>
+  </data>
+  <data name="Success">
+    <value>Succès</value>
+  </data>
+  <data name="SuspensoryLigament">
+    <value>Suspension  médiane</value>
+  </data>
+  <data name="SwitchToBrdCtryReg">
+    <value>Changer à Race/Pays/Enr</value>
+  </data>
+  <data name="SwitchToStudBrdSire">
+    <value>Changer à C.I./Race/CodeTaur</value>
+  </data>
+  <data name="SyncAll">
+    <value>Sync Tous</value>
+  </data>
+  <data name="SyncSettingsMenu">
+    <value>Sync/Menu des paramètres</value>
+  </data>
+  <data name="SyncSuccessfully">
+    <value>La synchronisation de vos transactions est effectuée avec succès</value>
+  </data>
+  <data name="SyncTransactionsError">
+    <value>Incapable de synchroniser vos transactions.  Veuillez réessayer plus tard.</value>
+  </data>
+  <data name="TeatLength">
+    <value>Longueur des Trayons</value>
+  </data>
+  <data name="TeatPlacement">
+    <value>Position des Trayons</value>
+  </data>
+  <data name="Temperament">
+    <value>Tempérament</value>
+  </data>
+  <data name="TL">
+    <value>LT</value>
+  </data>
+  <data name="TM">
+    <value>TP</value>
+  </data>
+  <data name="Total">
+    <value>Total:</value>
+  </data>
+  <data name="TP">
+    <value>PT</value>
+  </data>
+  <data name="Traits">
+    <value>Caractères</value>
+  </data>
+  <data name="UD">
+    <value>PP</value>
+  </data>
+  <data name="UdderDepth">
+    <value>Profondeur du pis</value>
+  </data>
+  <data name="UnableFindCustomer">
+    <value>Incapable de retrouver le client?</value>
+  </data>
+  <data name="UnableToLoadERPCustomers">
+    <value>Incapable de télécharger les clients SAP. Veuillez réessayer plus tard. </value>
+  </data>
+  <data name="UndeleteSelectedCows">
+    <value>Voulez-vous annuler la suppression des vaches sélectionnées?</value>
+  </data>
+  <data name="UniqueNameEartagError">
+    <value>Le Nom et l'Étiquette d'oreille doivent être uniques au client.</value>
+  </data>
+  <data name="Unprocessed">
+    <value>Non traité</value>
+  </data>
+  <data name="UpdateCustomerNumber">
+    <value>Mettre à jour le Numéro du Client</value>
+  </data>
+  <data name="UpdateCustomerNumberError">
+    <value>Incapable de mettre à jour le numéro.</value>
+  </data>
+  <data name="Updated">
+    <value>Mis à jour:</value>
+  </data>
+  <data name="UserSetupFail">
+    <value>La configuration n'a pas été effectuée avec succès après la connexion de l'utilisateur.  Veuillez réessayer plus tard. Veuillez communiquer avec le bureau d'aide au helpdesk@crinet.com si le problème se poursuit. </value>
+  </data>
+  <data name="ValueTooLong">
+    <value>La valeur entrée est trop longue.</value>
+  </data>
+  <data name="ValueTooShort">
+    <value>La valeur entrée est trop courte.</value>
+  </data>
+  <data name="WC">
+    <value>LP</value>
+  </data>
+  <data name="WF">
+    <value>GF</value>
+  </data>
+  <data name="WhichScoreScale">
+    <value>Quelle échelle d'évaluation devrait être utilisée?</value>
+  </data>
+  <data name="WidthOfChest">
+    <value>Largeur du poitrail</value>
+  </data>
+  <data name="WiFiOnly">
+    <value>WiFi Seulement</value>
+  </data>
+  <data name="WiFiOnlyError">
+    <value>Le WiFI Seulement est activé. Désactiver pour continuer ou branchez vous à une source WiFi. </value>
+  </data>
+  <data name="WorstFault">
+    <value>Plus grande faute</value>
+  </data>
+  <data name="Yes">
+    <value>Oui</value>
+  </data>
+  <data name="ZeroBreedsInDBError">
+    <value>Aucune race dans la base de données.  Veuillez télécharger les races à nouveau. </value>
+  </data>
+  <data name="ZeroCountriesInDBError">
+    <value>Aucun pays dans la base de données.  Veuillez télécharger les pays à nouveau.</value>
+  </data>
+  <data name="ZeroGamePlanCodesInDBError" xml:space="preserve">
+    <value>Aucun code de stratégies dans la base de données. Veuillez télécharger les Codes de Stratégies à nouveau. </value>
+  </data>
+  <data name="1">
+    <value>1</value>
+  </data>
+  <data name="1-50">
+    <value>1-50</value>
+  </data>
+  <data name="1-9">
+    <value>1-9</value>
+  </data>
+  <data name="2">
+    <value>2</value>
+  </data>
+  <data name="3">
+    <value>3</value>
+  </data>
+  <data name="4">
+    <value>4</value>
+  </data>
+  <data name="AccessDenied">
+    <value>Accès Interdit</value>
+  </data>
+  <data name="AddCow">
+    <value>Ajouter la vache</value>
+  </data>
+  <data name="AddCowNotFound">
+    <value>Ajoutez la vache. Si vous ajoutez une vache au nom que vous recherchez, veuillez vous assurez que le nom est bien épelé.</value>
+  </data>
+  <data name="AddCustomer">
+    <value>Ajouter le client</value>
+  </data>
+  <data name="AddCustomerToListAlert">
+    <value>Êtes-vous sûr que vous voulez ajouter ce client à votre liste? En ajoutant ce client vous téléchargerez automatiquement son troupeau, cela peut durer plusieurs minutes. </value>
+  </data>
+  <data name="AddEditCowSearchResult">
+    <value>Vache(s) retrouvée(s) - Sélectionnez la vache à télécharger. </value>
+  </data>
+  <data name="AddNew">
+    <value>Ajoutez la nouvelle vache</value>
+  </data>
+  <data name="AddNewCustomer">
+    <value>Ajoutez le nouveau client</value>
+  </data>
+  <data name="AddressLine1">
+    <value>Adresse ligne 1</value>
+  </data>
+  <data name="AddressLine1*">
+    <value>Adresse ligne 1*</value>
+  </data>
+  <data name="AddressLine2">
+    <value>Adresse ligne 2</value>
+  </data>
+  <data name="AddressLine3">
+    <value>Adresse ligne 3</value>
+  </data>
+  <data name="AddressLine4">
+    <value>Adresse ligne 4</value>
+  </data>
+  <data name="AddToCustomerList">
+    <value>Ajoutez à la liste des clients</value>
+  </data>
+  <data name="Age">
+    <value>Âge</value>
+  </data>
+  <data name="Alert">
+    <value>Alerte</value>
+  </data>
+  <data name="AlertCowsSelected">
+    <value>Il n'y a pas de vaches de sélectionnées.</value>
+  </data>
+  <data name="AlertGamePlanSelected">
+    <value>Il n'y a pas de stratégies de choisies.</value>
+  </data>
+  <data name="All">
+    <value>Tous</value>
+  </data>
+  <data name="AnimalsNotScored">
+    <value>Animaux sans pointage</value>
+  </data>
+  <data name="Apr">
+    <value>AVR</value>
+  </data>
+  <data name="Aug">
+    <value>AOU</value>
+  </data>
+  <data name="AutoCalc">
+    <value>Auto Calc</value>
+  </data>
+  <data name="BasicForm">
+    <value>Forme de base</value>
+  </data>
+  <data name="BD">
+    <value>PC</value>
+  </data>
+  <data name="Beef">
+    <value>Bovin de boucherie</value>
+  </data>
+  <data name="BF">
+    <value>FB</value>
+  </data>
+  <data name="BillingInformation">
+    <value>Information de facturation</value>
+  </data>
+  <data name="BodyDepth">
+    <value>Profondeur du corps</value>
+  </data>
+  <data name="Both">
+    <value>Les deux</value>
+  </data>
+  <data name="Brd">
+    <value>Rac</value>
+  </data>
+  <data name="BrdCtryRegError">
+    <value>Les numéraux de race, de pays et d'enregistrement sont requis pour continuer.</value>
+  </data>
+  <data name="BreedsDownloaded">
+    <value>Les races sont téléchargées.</value>
+  </data>
+  <data name="BreedsDownloadedAlert">
+    <value>Êtes-vous sûr que vous voulez télécharger les races?</value>
+  </data>
+  <data name="BreedsDownloadedError">
+    <value>Incapable de télécharger les races. Veuillez réessayer plus tard.</value>
+  </data>
+  <data name="BusinessPhone">
+    <value>Téléphone d'affaire</value>
+  </data>
+  <data name="Call">
+    <value>Appel</value>
+  </data>
+  <data name="Cancel">
+    <value>Annuler</value>
+  </data>
+  <data name="CellPhone">
+    <value>Téléphone cellulaire</value>
+  </data>
+  <data name="ChangeSelectedCowsGamePlan">
+    <value>Voulez-vous jumeler les vaches sélectionnées à la stratégie?</value>
+  </data>
+  <data name="ChooseLoginMessage">
+    <value>Veuillez choisir une option de connexion.</value>
+  </data>
+  <data name="City">
+    <value>Ville</value>
+  </data>
+  <data name="City*">
+    <value>Ville*</value>
+  </data>
+  <data name="Clear">
+    <value>Supprimer</value>
+  </data>
+  <data name="ClearAll">
+    <value>Supprimer au complet</value>
+  </data>
+  <data name="Components">
+    <value>Composantes </value>
+  </data>
+  <data name="Confirm">
+    <value>Confirmer</value>
+  </data>
+  <data name="ConnectionFailure">
+    <value>Vous devez disposer d'une connexion internet pour procéder.</value>
+  </data>
+  <data name="ContactName">
+    <value>Nom de contact</value>
+  </data>
+  <data name="ContactPhones">
+    <value>Téléphones de contact</value>
+  </data>
+  <data name="ControlNumber">
+    <value>Numéro de contrôle</value>
+  </data>
+  <data name="CountriesDownloadAlert">
+    <value>Êtes-vous sûr que vous voulez télécharger les pays?</value>
+  </data>
+  <data name="CountriesDownloaded">
+    <value>Les pays ont été téléchargés.</value>
+  </data>
+  <data name="CountriesDownloadedError">
+    <value>Incapable de télécharger les pays. Veuillez réessayer plus tard. </value>
+  </data>
+  <data name="Country*">
+    <value>Pays*</value>
+  </data>
+  <data name="Cow">
+    <value>Vache </value>
+  </data>
+  <data name="CowId">
+    <value>Id de la vache</value>
+  </data>
+  <data name="CowName">
+    <value>Nom de la vache</value>
+  </data>
+  <data name="Cows">
+    <value>Vaches</value>
+  </data>
+  <data name="CowsMovedToBottom">
+    <value>Non déplacé au haut</value>
+  </data>
+  <data name="CowsMovedToTop">
+    <value>Déplacé au haut</value>
+  </data>
+  <data name="CowsNotFound">
+    <value>Si vous ajoutez une nouvelle vache avec le nom recherché, veuillez vous assurer que le nom soit épelé correctement.</value>
+  </data>
+  <data name="CowsSaved">
+    <value>{0} vaches ont été sauvegardées. {1} vaches avaient des données incorrectes et n'ont pas été sauvegardées. </value>
+  </data>
+  <data name="Create">
+    <value>Créer</value>
+  </data>
+  <data name="CreateMAPPrimaryList">
+    <value>Créer la liste primaire</value>
+  </data>
+  <data name="CreateMAPPrimaryListRemove">
+    <value>Êtes-vous sûr que vous voulez supprimer {0} de la liste primaire?</value>
+  </data>
+  <data name="CRI">
+    <value>CRI</value>
+  </data>
+  <data name="Ctry">
+    <value>Pays</value>
+  </data>
+  <data name="CustomerAddedError">
+    <value>Le client n'a pas été ajouté à votre liste de clientèle. Veuillez réessayer plus tard.</value>
+  </data>
+  <data name="CustomerAddedToList">
+    <value>Le client a été ajouté à votre liste de clientèle. </value>
+  </data>
+  <data name="CustomerAPartOfList">
+    <value>Ce client fait déjà partie de votre liste de clientèle. </value>
+  </data>
+  <data name="CustomerContactInformation">
+    <value>Renseignements du client</value>
+  </data>
+  <data name="CustomerCreatedSuccessfully">
+    <value>Le profil du client a été créé avec succès</value>
+  </data>
+  <data name="CustomerMenu">
+    <value>Menu du client</value>
+  </data>
+  <data name="CustomerNameNotMatching">
+    <value>Le numéro entré ne correspond pas à {0}. Le nom du client correspondant au numéro entré est {1}. Désirez-vous continuer? </value>
+  </data>
+  <data name="CustomerNumberDoesNotExistError">
+    <value>Le numéro entré ne correspond pas aux clients dans le système.</value>
+  </data>
+  <data name="CustomerSaveFail">
+    <value>Le client n'a pas été sauvegardé avec succès, veuillez communiquez avec le bureau d'aide CRI IT au 715-526-7571. </value>
+  </data>
+  <data name="CustomerSearch">
+    <value>Recherche du client</value>
+  </data>
+  <data name="CustomizeFastScoreTraitOrder">
+    <value>Personnaliser l'ordre des caractères pour évaluation rapide</value>
+  </data>
+  <data name="Dairy">
+    <value>Laitier</value>
+  </data>
+  <data name="Dairyness">
+    <value>Qualité laitière</value>
+  </data>
+  <data name="DamReg">
+    <value>Enr. Mère</value>
+  </data>
+  <data name="Dec">
+    <value>DEC</value>
+  </data>
+  <data name="Delete">
+    <value>Supprimer</value>
+  </data>
+  <data name="DeleteAdd">
+    <value>Supprimer/Ajouter</value>
+  </data>
+  <data name="Deleted">
+    <value>Supprimer:</value>
+  </data>
+  <data name="DeleteHerd">
+    <value>Voulez-vous supprimer ce troupeau de votre système?</value>
+  </data>
+  <data name="DeleteSelectedCows">
+    <value>Voulez-vous supprimer les vaches sélectionnées?</value>
+  </data>
+  <data name="DeselectAll">
+    <value>Désélectionner Tous</value>
+  </data>
+  <data name="DF">
+    <value>Forme laitière</value>
+  </data>
+  <data name="DialNumber">
+    <value>Composer un numéro</value>
+  </data>
+  <data name="DIM">
+    <value>JEL</value>
+  </data>
+  <data name="DownloadBreeds">
+    <value>Télécharger les Races</value>
+  </data>
+  <data name="DownloadCountries">
+    <value>Télécharger les Pays</value>
+  </data>
+  <data name="Downloaded">
+    <value>Télécharger</value>
+  </data>
+  <data name="DownloadGamePlans">
+    <value>Télécharger les Stratégies</value>
+  </data>
+  <data name="DownloadHerdWhileCheckedOut">
+    <value>Ce troupeau est déjà utilisé par l'utilisateur inscrit ci-dessous. Êtes-vous sûr que vous voulez continuer?</value>
+  </data>
+  <data name="DoYouWantToDelete">
+    <value>Voulez-vous supprimer?</value>
+  </data>
+  <data name="DoYouWantToUndelete">
+    <value>Voulez-vous annuler la suppression?</value>
+  </data>
+  <data name="EartagReg">
+    <value>Étiquette d'oreille/# d'enr</value>
+  </data>
+  <data name="EditPedigree">
+    <value>Modifier les généalogies</value>
+  </data>
+  <data name="Email">
+    <value>Courriel</value>
+  </data>
+  <data name="Employee">
+    <value>Employé</value>
+  </data>
+  <data name="Employees">
+    <value>Employés</value>
+  </data>
+  <data name="EnterNumber">
+    <value>Entrer le numéro</value>
+  </data>
+  <data name="ERPCustomerSearch">
+    <value>Recherche du client ERP</value>
+  </data>
+  <data name="Express">
+    <value>Précis</value>
+  </data>
+  <data name="ExpressError">
+    <value>Vous avez sélectionné  MAP Précis Conformation. Vous n'avez pas de caractères de choisis.  Êtes-vous sûr que vous voulez sauvegarder?</value>
+  </data>
+  <data name="FA">
+    <value>AP</value>
+  </data>
+  <data name="Facebook">
+    <value>Facebook</value>
+  </data>
+  <data name="FastScore">
+    <value>Évaluation Rapide</value>
+  </data>
+  <data name="FastScorePrimaryCows">
+    <value>Évaluation Rapide / Vaches Primaires</value>
+  </data>
+  <data name="FatPercent">
+    <value>Pourcentage du Gras</value>
+  </data>
+  <data name="Feb">
+    <value>FEV</value>
+  </data>
+  <data name="FillAll">
+    <value>Remplir au complet</value>
+  </data>
+  <data name="Filter">
+    <value>Filtrer</value>
+  </data>
+  <data name="FootAngle">
+    <value>Angle du pied</value>
+  </data>
+  <data name="ForeUdderAttachment">
+    <value>Attache avant</value>
+  </data>
+  <data name="FP">
+    <value>PG</value>
+  </data>
+  <data name="FU">
+    <value>AA</value>
+  </data>
+  <data name="FullName*">
+    <value>Nom Complet*</value>
+  </data>
+  <data name="GamePlan">
+    <value>Stratégie</value>
+  </data>
+  <data name="GamePlan*">
+    <value>Stratégie*</value>
+  </data>
+  <data name="GamePlanCodesAlert">
+    <value>Êtes-vous sûr que vous voulez télécharger les stratégies?</value>
+  </data>
+  <data name="GamePlanCodesDownloaded">
+    <value>Les stratégies ont été téléchargées.</value>
+  </data>
+  <data name="GamePlanCodesDownloadedError">
+    <value>Incapable de télécharger les codes de stratégies. Veuillez réessayer plus tard.</value>
+  </data>
+  <data name="Genomic">
+    <value>Génomique</value>
+  </data>
+  <data name="GettingBreed">
+    <value>Aucune race de retrouvée. Veuillez réessayer plus tard.</value>
+  </data>
+  <data name="GettingCountry">
+    <value>Aucun pays de retrouvé.  Veuillez réessayer plus tard.</value>
+  </data>
+  <data name="GettingCowPedigreeInfo">
+    <value>Incapable de récupérer les renseignements généalogiques.</value>
+  </data>
+  <data name="Google">
+    <value>Google</value>
+  </data>
+  <data name="GoToTop">
+    <value>Aller vers le haut</value>
+  </data>
+  <data name="GP">
+    <value>Strat.</value>
+  </data>
+  <data name="Help">
+    <value>Aide</value>
+  </data>
+  <data name="HerdCounts">
+    <value>Compte des troupeaux</value>
+  </data>
+  <data name="Hide">
+    <value>Cacher</value>
+  </data>
+  <data name="High">
+    <value>Élevé</value>
+  </data>
+  <data name="Horizons">
+    <value>Horizons</value>
+  </data>
+  <data name="InternationalDistributor">
+    <value>Distributeur international</value>
+  </data>
+  <data name="InternationalDistributors">
+    <value>Distributeurs internationaux</value>
+  </data>
+  <data name="InvalidCountry">
+    <value>Code de pays invalide</value>
+  </data>
+  <data name="InvalidRegion">
+    <value>Région invalide</value>
+  </data>
+  <data name="Jan">
+    <value>JAN</value>
+  </data>
+  <data name="Jul">
+    <value>JUL</value>
+  </data>
+  <data name="Jun">
+    <value>JUI</value>
+  </data>
+  <data name="Lactation">
+    <value>Lactation</value>
+  </data>
+  <data name="LegalName*">
+    <value>Nom légal*</value>
+  </data>
+  <data name="LegsRearView">
+    <value>Position Membres Arrière</value>
+  </data>
+  <data name="LegsSideView">
+    <value>Vue Côté- Membres Arrière</value>
+  </data>
+  <data name="Linear">
+    <value>Linéaire</value>
+  </data>
+  <data name="LinearError">
+    <value>Vous avez sélectionné la fonction Linear MAP sans remplir tous les caractères.  Êtes-vous sûr que vous voulez sauvegarder?</value>
+  </data>
+  <data name="Login">
+    <value>Login</value>
+  </data>
+  <data name="LoginExpired">
+    <value>Votre connexion est expirée. Réeffectuez votre login.</value>
+  </data>
+  <data name="LoginFail">
+    <value>Incapable de connecter. Veuillez réessayer plus tard. Veuillez communiquer avec le bureau d'aide CRI IT au helpdesk@crinet.com si l'erreur se poursuit.</value>
+  </data>
+  <data name="Logout">
+    <value>Déconnecter</value>
+  </data>
+  <data name="LogoutConfirmation">
+    <value>Êtes-vous sûr que vous voulez vous déconnecter? Accès à l'internet est nécessaire pour vous reconnecter.  </value>
+  </data>
+  <data name="Low">
+    <value>Faible</value>
+  </data>
+  <data name="LR">
+    <value>MA</value>
+  </data>
+  <data name="LS">
+    <value>MC</value>
+  </data>
+  <data name="MakeCustomerMAPCustomer">
+    <value>Créer MAP Client</value>
+  </data>
+  <data name="MAP">
+    <value>MAP</value>
+  </data>
+  <data name="MappingMonths">
+    <value>Traçage Mois</value>
+  </data>
+  <data name="MapType">
+    <value>MAP Conformation*</value>
+  </data>
+  <data name="MapTypePicker">
+    <value>Traçage Conformation:</value>
+  </data>
+  <data name="Mar">
+    <value>MAR</value>
+  </data>
+  <data name="MassPedigreePrimaryCows">
+    <value>Groupe entier de Généalogies avec vaches primaires</value>
+  </data>
+  <data name="MatingPriority">
+    <value>Accouplement prioritaire</value>
+  </data>
+  <data name="May">
+    <value>MAI</value>
+  </data>
+  <data name="Medium">
+    <value>Médium</value>
+  </data>
+  <data name="MGGS">
+    <value>AGPM</value>
+  </data>
+  <data name="MGS">
+    <value>GPM</value>
+  </data>
+  <data name="Microsoft">
+    <value>Microsoft</value>
+  </data>
+  <data name="MilkingSpeed">
+    <value>Vitesse de traite</value>
+  </data>
+  <data name="MoveSelectedCowsToBottom">
+    <value>Voulez-vous déplacer les vaches sélectionnées au bas de la liste?</value>
+  </data>
+  <data name="MoveSelectedCowsToTop">
+    <value>Voulez-vous déplacer les vaches sélectionnées au haut de la liste?</value>
+  </data>
+  <data name="MoveToBottom">
+    <value>Déplacer au bas</value>
+  </data>
+  <data name="MoveToTop">
+    <value>Déplacer au haut</value>
+  </data>
+  <data name="MP">
+    <value>AP</value>
+  </data>
+  <data name="MS">
+    <value>VT</value>
+  </data>
+  <data name="MultipleUsersError">
+    <value>Ce compte est associé à un employé et à un distributeur international. Vous désirez vous connecter à quel compte?</value>
+  </data>
+  <data name="MultiSelect">
+    <value>Multi Sélect</value>
+  </data>
+  <data name="MustBeANumber">
+    <value>Doit utiliser un chiffre</value>
+  </data>
+  <data name="NAABError">
+    <value>NAAB incomplet</value>
+  </data>
+  <data name="Name">
+    <value>Nom</value>
+  </data>
+  <data name="Name*">
+    <value>Nom*</value>
+  </data>
+  <data name="NameRequired">
+    <value>*Nom est requis</value>
+  </data>
+  <data name="New">
+    <value>Nouveau:</value>
+  </data>
+  <data name="NewCustomer">
+    <value>Nouveau Client</value>
+  </data>
+  <data name="Next">
+    <value>Suivant&gt;</value>
+  </data>
+  <data name="No">
+    <value>Aucun</value>
+  </data>
+  <data name="NoBreeds">
+    <value>Aucune race, veuillez mettre à jour les races.</value>
+  </data>
+  <data name="NoCountries">
+    <value>Aucun pays, veuillez mettre à jour les pays.</value>
+  </data>
+  <data name="NoCowsFound">
+    <value>Aucune vache de retrouvée.</value>
+  </data>
+  <data name="NoDataChanges">
+    <value>Aucun changement de détecté pour sauvegarder.</value>
+  </data>
+  <data name="NoGamePlans">
+    <value>Aucune stratégie, veuillez mettre à jour les stratégies.</value>
+  </data>
+  <data name="NoInternet">
+    <value>Accès à l'internet n'est pas disponible. Veuillez vous connecter là où le service est disponible.</value>
+  </data>
+  <data name="None">
+    <value>Aucun</value>
+  </data>
+  <data name="Notes">
+    <value>Notes</value>
+  </data>
+  <data name="NoTransactionError">
+    <value>Aucune donnée à synch. Noter: Les données sont synchronisées activement lorsque connecté au Wi-Fi</value>
+  </data>
+  <data name="Nov">
+    <value>NOV</value>
+  </data>
+  <data name="NoWorstFault">
+    <value>Pas de défauts majeurs</value>
+  </data>
+  <data name="NumberTooLong">
+    <value>Les chiffres sont trop nombreux</value>
+  </data>
+  <data name="NumberTooShort">
+    <value>Nombre de chiffres est insuffisant</value>
+  </data>
+  <data name="Oct">
+    <value>OCT</value>
+  </data>
+  <data name="Okay">
+    <value>Ok</value>
+  </data>
+  <data name="OldCustomerNumber">
+    <value>Ancien numéro du client:</value>
+  </data>
+  <data name="Oops">
+    <value>Oups!</value>
+  </data>
+  <data name="OR">
+    <value>OU</value>
+  </data>
+  <data name="OutsideArea">
+    <value>À l'extérieur des bureaux de ventes/Groupe</value>
+  </data>
+  <data name="Pedigree">
+    <value>Généalogie</value>
+  </data>
+  <data name="PedigreeEdit">
+    <value>Modification à la Généalogie</value>
+  </data>
+  <data name="PedigreeError">
+    <value>Vous avez sélectionné MAP conformation mais vous n'avez pas de renseignements généalogiques. Êtes-vous sûr que vous voulez sauvegarder?</value>
+  </data>
+  <data name="PedigreesSaved">
+    <value>La sauvegarde des généalogies a été effectuée avec succès.</value>
+  </data>
+  <data name="PhoneDialError">
+    <value>Nous éprouvons de la difficulté à composer ce numéro#. Veuillez réessayer plus tard.  Veuillez communiquer avec le bureau d'aide CRI IT au helpdesk@crinet.com si l'erreur se poursuit. </value>
+  </data>
+  <data name="PhoneNumberError">
+    <value>Un numéro de téléphone, soit de bureau ou de cellulaire est requis. </value>
+  </data>
+  <data name="PixCow">
+    <value>Pix Vache</value>
+  </data>
+  <data name="PostalCode">
+    <value>Code Postale</value>
+  </data>
+  <data name="PP">
+    <value>PP</value>
+  </data>
+  <data name="Prev">
+    <value>Pré</value>
+  </data>
+  <data name="Primary">
+    <value>Primaire</value>
+  </data>
+  <data name="PrimaryListSearchResult">
+    <value>Vache(s) retrouvée(s) - Sélectionnez la vache à ajouter à la liste. </value>
+  </data>
+  <data name="Priority">
+    <value>Prioritaire</value>
+  </data>
+  <data name="Processed">
+    <value>Traité</value>
+  </data>
+  <data name="ProteinPercent">
+    <value>Pourcentage de la Protéine</value>
+  </data>
+  <data name="RearUdderHeight">
+    <value>Hauteur Attache Arrière</value>
+  </data>
+  <data name="RearUdderWidth">
+    <value>Largeur Attache Arrière</value>
+  </data>
+  <data name="Reg">
+    <value>Rég</value>
+  </data>
+  <data name="Region">
+    <value>Région</value>
+  </data>
+  <data name="Region*">
+    <value>Région*</value>
+  </data>
+  <data name="RegistrationError">
+    <value>Enregistrement incomplet.</value>
+  </data>
+  <data name="Remove">
+    <value>Éliminer</value>
+  </data>
+  <data name="RemoveHerdError">
+    <value>Il y a un problème avec l'élimination du troupeau de votre dispositif. Veuillez réessayer plus tard.  Veuillez communiquer avec le bureau d'aide CRI IT au helpdesk@crinet.com si l'erreur se poursuit. </value>
+  </data>
+  <data name="RemoveHerdFromDevice">
+    <value>Supprimer le troupeau du dispositif</value>
+  </data>
+  <data name="RemoveOutsideCustomerFromDevice">
+    <value>Supprimer le client de l'extérieur du dispositif</value>
+  </data>
+  <data name="RequestHerd">
+    <value>Demande de troupeau</value>
+  </data>
+  <data name="Required">
+    <value>Ce champ est obligatoire</value>
+  </data>
+  <data name="RequiredFields">
+    <value>Ces champs sont obligatoires</value>
+  </data>
+  <data name="Reset">
+    <value>Réinitialiser</value>
+  </data>
+  <data name="RetrieveCowsError">
+    <value>Incapable de récupérer les vaches.  Veuillez réessayer plus tard.</value>
+  </data>
+  <data name="RetrieveCustomersError">
+    <value>Incapable de régénérer la liste de client.  Veuillez réessayer plus tard.</value>
+  </data>
+  <data name="RH">
+    <value>HA</value>
+  </data>
+  <data name="RS">
+    <value>AC</value>
+  </data>
+  <data name="RU">
+    <value>LA</value>
+  </data>
+  <data name="RumpSideView">
+    <value>Angle de la croupe</value>
+  </data>
+  <data name="RumpWidth">
+    <value>Largeur de la croupe</value>
+  </data>
+  <data name="RW">
+    <value>LC</value>
+  </data>
+  <data name="SameBillingAddress">
+    <value>Même renseignements que les renseignements de facturation</value>
+  </data>
+  <data name="SameShippingAddress">
+    <value>Même adresse d'expédition</value>
+  </data>
+  <data name="Save">
+    <value>Sauvegarder</value>
+  </data>
+  <data name="SaveAndBack">
+    <value>Sauvegarder et retourner</value>
+  </data>
+  <data name="SaveChanges">
+    <value>Voulez-vous sauvegarder vos changements?</value>
+  </data>
+  <data name="SaveComplete">
+    <value>Sauvegarde est complétée</value>
+  </data>
+  <data name="SaveCowsPedigrees">
+    <value>Sauvegarder les généalogies de vaches</value>
+  </data>
+  <data name="SaveError">
+    <value>Veuillez vérifier vos données et réessayer.</value>
+  </data>
+  <data name="SavingPedigreesError">
+    <value>Les généalogies n'ont pas été sauvegardées. Veuillez vérifier vos données et réessayer.</value>
+  </data>
+  <data name="Scheduled">
+    <value>Programmer</value>
+  </data>
+  <data name="ScoreScale">
+    <value>Échelle d'évaluation</value>
+  </data>
+  <data name="Search">
+    <value>Recherche</value>
+  </data>
+  <data name="SearchCowListBy">
+    <value>Rechercher la liste de vaches selon:</value>
+  </data>
+  <data name="Secondary">
+    <value>Secondaire/Reste</value>
+  </data>
+  <data name="SelectAGamePlan">
+    <value>Sélectionnez une stratégie:</value>
+  </data>
+  <data name="SelectAll">
+    <value>Sélectionnez Tous</value>
+  </data>
+  <data name="SelectAllConfirm">
+    <value>Vous êtes sur le point de sélectionner ou de désélectionner Tous animaux, désirez-vous continuer?</value>
+  </data>
+  <data name="SelectMultipleCows">
+    <value>Sélectionner Vaches Multiples</value>
+  </data>
+  <data name="SendContactEmailError">
+    <value>Il y a un problème avec l'ouverture d'un nouveau courriel. Veuillez réessayer plus tard.  Veuillez communiquer avec le bureau d'aide CRI IT au helpdesk@crinet.com si l'erreur se poursuit.</value>
+  </data>
+  <data name="SendEmail">
+    <value>Envoyez un courriel</value>
+  </data>
+  <data name="Sep">
+    <value>SEP</value>
+  </data>
+  <data name="ShippingCustomer">
+    <value>Renseignements d'expédition</value>
+  </data>
+  <data name="ShippingInformation">
+    <value>Renseignements d'expédition</value>
+  </data>
+  <data name="ShowMore">
+    <value>Plus</value>
+  </data>
+  <data name="ShowProcessed">
+    <value>Montrer informations traitées</value>
+  </data>
+  <data name="ShowUnprocessed">
+    <value>Montrer informations non traitées</value>
+  </data>
+  <data name="Sire">
+    <value>Taureau</value>
+  </data>
+  <data name="SireCode">
+    <value>Code du taureau</value>
+  </data>
+  <data name="SL">
+    <value>SL</value>
+  </data>
+  <data name="SQLliteError">
+    <value>Incapable de lire les fichiers sauvegardés. Veuillez communiquer avec le bureau d'aide CRI IT au 715-526-7571 si l'erreur se poursuit.</value>
+  </data>
+  <data name="ST">
+    <value>ST</value>
+  </data>
+  <data name="State*">
+    <value>État*</value>
+  </data>
+  <data name="Stature">
+    <value>Stature</value>
+  </data>
+  <data name="Stud">
+    <value>Centre d'insémination</value>
+  </data>
+  <data name="StudBrdSireCodeError">
+    <value>Centre d'insémination, Race, Code de Taureau sont requis afin de poursuivre.</value>
+  </data>
+  <data name="Success">
+    <value>Succès</value>
+  </data>
+  <data name="SuspensoryLigament">
+    <value>Suspension  médiane</value>
+  </data>
+  <data name="SwitchToBrdCtryReg">
+    <value>Changer à Race/Pays/Enr</value>
+  </data>
+  <data name="SwitchToStudBrdSire">
+    <value>Changer à C.I./Race/CodeTaur</value>
+  </data>
+  <data name="SyncAll">
+    <value>Sync Tous</value>
+  </data>
+  <data name="SyncSettingsMenu">
+    <value>Sync/Menu des paramètres</value>
+  </data>
+  <data name="SyncSuccessfully">
+    <value>La synchronisation de vos transactions est effectuée avec succès</value>
+  </data>
+  <data name="SyncTransactionsError">
+    <value>Incapable de synchroniser vos transactions.  Veuillez réessayer plus tard.</value>
+  </data>
+  <data name="TeatLength">
+    <value>Longueur des Trayons</value>
+  </data>
+  <data name="TeatPlacement">
+    <value>Position des Trayons</value>
+  </data>
+  <data name="Temperament">
+    <value>Tempérament</value>
+  </data>
+  <data name="TL">
+    <value>LT</value>
+  </data>
+  <data name="TM">
+    <value>TP</value>
+  </data>
+  <data name="Total">
+    <value>Total:</value>
+  </data>
+  <data name="TP">
+    <value>PT</value>
+  </data>
+  <data name="Traits">
+    <value>Caractères</value>
+  </data>
+  <data name="UD">
+    <value>PP</value>
+  </data>
+  <data name="UdderDepth">
+    <value>Profondeur du pis</value>
+  </data>
+  <data name="UnableFindCustomer">
+    <value>Incapable de retrouver le client?</value>
+  </data>
+  <data name="UnableToLoadERPCustomers">
+    <value>Incapable de télécharger les clients SAP. Veuillez réessayer plus tard. </value>
+  </data>
+  <data name="UndeleteSelectedCows">
+    <value>Voulez-vous annuler la suppression des vaches sélectionnées?</value>
+  </data>
+  <data name="UniqueNameEartagError">
+    <value>Le Nom et l'Étiquette d'oreille doivent être uniques au client.</value>
+  </data>
+  <data name="Unprocessed">
+    <value>Non traité</value>
+  </data>
+  <data name="UpdateCustomerNumber">
+    <value>Mettre à jour le Numéro du Client</value>
+  </data>
+  <data name="UpdateCustomerNumberError">
+    <value>Incapable de mettre à jour le numéro.</value>
+  </data>
+  <data name="Updated">
+    <value>Mis à jour:</value>
+  </data>
+  <data name="UserSetupFail">
+    <value>La configuration n'a pas été effectuée avec succès après la connexion de l'utilisateur.  Veuillez réessayer plus tard. Veuillez communiquer avec le bureau d'aide au helpdesk@crinet.com si le problème se poursuit. </value>
+  </data>
+  <data name="ValueTooLong">
+    <value>La valeur entrée est trop longue.</value>
+  </data>
+  <data name="ValueTooShort">
+    <value>La valeur entrée est trop courte.</value>
+  </data>
+  <data name="WC">
+    <value>LP</value>
+  </data>
+  <data name="WF">
+    <value>GF</value>
+  </data>
+  <data name="WhichScoreScale">
+    <value>Quelle échelle d'évaluation devrait être utilisée?</value>
+  </data>
+  <data name="WidthOfChest">
+    <value>Largeur du poitrail</value>
+  </data>
+  <data name="WiFiOnly">
+    <value>WiFi Seulement</value>
+  </data>
+  <data name="WiFiOnlyError">
+    <value>Le WiFI Seulement est activé. Désactiver pour continuer ou branchez vous à une source WiFi. </value>
+  </data>
+  <data name="WorstFault">
+    <value>Plus grande faute</value>
+  </data>
+  <data name="Yes">
+    <value>Oui</value>
+  </data>
+  <data name="ZeroBreedsInDBError">
+    <value>Aucune race dans la base de données.  Veuillez télécharger les races à nouveau. </value>
+  </data>
+  <data name="ZeroCountriesInDBError">
+    <value>Aucun pays dans la base de données.  Veuillez télécharger les pays à nouveau.</value>
+  </data>
+  <data name="ZeroGamePlanCodesInDBError" xml:space="preserve">
+    <value>Aucun code de stratégies dans la base de données. Veuillez télécharger les Codes de Stratégies à nouveau. </value>
+  </data>
+  <data name="1">
+    <value>1</value>
+  </data>
+  <data name="1-50">
+    <value>1-50</value>
+  </data>
+  <data name="1-9">
+    <value>1-9</value>
+  </data>
+  <data name="2">
+    <value>2</value>
+  </data>
+  <data name="3">
+    <value>3</value>
+  </data>
+  <data name="4">
+    <value>4</value>
+  </data>
+  <data name="AccessDenied">
+    <value>Accès Interdit</value>
+  </data>
+  <data name="AddCow">
+    <value>Ajouter la vache</value>
+  </data>
+  <data name="AddCowNotFound">
+    <value>Ajoutez la vache. Si vous ajoutez une vache au nom que vous recherchez, veuillez vous assurez que le nom est bien épelé.</value>
+  </data>
+  <data name="AddCustomer">
+    <value>Ajouter le client</value>
+  </data>
+  <data name="AddCustomerToListAlert">
+    <value>Êtes-vous sûr que vous voulez ajouter ce client à votre liste? En ajoutant ce client vous téléchargerez automatiquement son troupeau, cela peut durer plusieurs minutes. </value>
+  </data>
+  <data name="AddEditCowSearchResult">
+    <value>Vache(s) retrouvée(s) - Sélectionnez la vache à télécharger. </value>
+  </data>
+  <data name="AddNew">
+    <value>Ajoutez la nouvelle vache</value>
+  </data>
+  <data name="AddNewCustomer">
+    <value>Ajoutez le nouveau client</value>
+  </data>
+  <data name="AddressLine1">
+    <value>Adresse ligne 1</value>
+  </data>
+  <data name="AddressLine1*">
+    <value>Adresse ligne 1*</value>
+  </data>
+  <data name="AddressLine2">
+    <value>Adresse ligne 2</value>
+  </data>
+  <data name="AddressLine3">
+    <value>Adresse ligne 3</value>
+  </data>
+  <data name="AddressLine4">
+    <value>Adresse ligne 4</value>
+  </data>
+  <data name="AddToCustomerList">
+    <value>Ajoutez à la liste des clients</value>
+  </data>
+  <data name="Age">
+    <value>Âge</value>
+  </data>
+  <data name="Alert">
+    <value>Alerte</value>
+  </data>
+  <data name="AlertCowsSelected">
+    <value>Il n'y a pas de vaches de sélectionnées.</value>
+  </data>
+  <data name="AlertGamePlanSelected">
+    <value>Il n'y a pas de stratégies de choisies.</value>
+  </data>
+  <data name="All">
+    <value>Tous</value>
+  </data>
+  <data name="AnimalsNotScored">
+    <value>Animaux sans pointage</value>
+  </data>
+  <data name="Apr">
+    <value>AVR</value>
+  </data>
+  <data name="Aug">
+    <value>AOU</value>
+  </data>
+  <data name="AutoCalc">
+    <value>Auto Calc</value>
+  </data>
+  <data name="BasicForm">
+    <value>Forme de base</value>
+  </data>
+  <data name="BD">
+    <value>PC</value>
+  </data>
+  <data name="Beef">
+    <value>Bovin de boucherie</value>
+  </data>
+  <data name="BF">
+    <value>FB</value>
+  </data>
+  <data name="BillingInformation">
+    <value>Information de facturation</value>
+  </data>
+  <data name="BodyDepth">
+    <value>Profondeur du corps</value>
+  </data>
+  <data name="Both">
+    <value>Les deux</value>
+  </data>
+  <data name="Brd">
+    <value>Rac</value>
+  </data>
+  <data name="BrdCtryRegError">
+    <value>Les numéraux de race, de pays et d'enregistrement sont requis pour continuer.</value>
+  </data>
+  <data name="BreedsDownloaded">
+    <value>Les races sont téléchargées.</value>
+  </data>
+  <data name="BreedsDownloadedAlert">
+    <value>Êtes-vous sûr que vous voulez télécharger les races?</value>
+  </data>
+  <data name="BreedsDownloadedError">
+    <value>Incapable de télécharger les races. Veuillez réessayer plus tard.</value>
+  </data>
+  <data name="BusinessPhone">
+    <value>Téléphone d'affaire</value>
+  </data>
+  <data name="Call">
+    <value>Appel</value>
+  </data>
+  <data name="Cancel">
+    <value>Annuler</value>
+  </data>
+  <data name="CellPhone">
+    <value>Téléphone cellulaire</value>
+  </data>
+  <data name="ChangeSelectedCowsGamePlan">
+    <value>Voulez-vous jumeler les vaches sélectionnées à la stratégie?</value>
+  </data>
+  <data name="ChooseLoginMessage">
+    <value>Veuillez choisir une option de connexion.</value>
+  </data>
+  <data name="City">
+    <value>Ville</value>
+  </data>
+  <data name="City*">
+    <value>Ville*</value>
+  </data>
+  <data name="Clear">
+    <value>Supprimer</value>
+  </data>
+  <data name="ClearAll">
+    <value>Supprimer au complet</value>
+  </data>
+  <data name="Components">
+    <value>Composantes </value>
+  </data>
+  <data name="Confirm">
+    <value>Confirmer</value>
+  </data>
+  <data name="ConnectionFailure">
+    <value>Vous devez disposer d'une connexion internet pour procéder.</value>
+  </data>
+  <data name="ContactName">
+    <value>Nom de contact</value>
+  </data>
+  <data name="ContactPhones">
+    <value>Téléphones de contact</value>
+  </data>
+  <data name="ControlNumber">
+    <value>Numéro de contrôle</value>
+  </data>
+  <data name="CountriesDownloadAlert">
+    <value>Êtes-vous sûr que vous voulez télécharger les pays?</value>
+  </data>
+  <data name="CountriesDownloaded">
+    <value>Les pays ont été téléchargés.</value>
+  </data>
+  <data name="CountriesDownloadedError">
+    <value>Incapable de télécharger les pays. Veuillez réessayer plus tard. </value>
+  </data>
+  <data name="Country*">
+    <value>Pays*</value>
+  </data>
+  <data name="Cow">
+    <value>Vache </value>
+  </data>
+  <data name="CowId">
+    <value>Id de la vache</value>
+  </data>
+  <data name="CowName">
+    <value>Nom de la vache</value>
+  </data>
+  <data name="Cows">
+    <value>Vaches</value>
+  </data>
+  <data name="CowsMovedToBottom">
+    <value>Non déplacé au haut</value>
+  </data>
+  <data name="CowsMovedToTop">
+    <value>Déplacé au haut</value>
+  </data>
+  <data name="CowsNotFound">
+    <value>Si vous ajoutez une nouvelle vache avec le nom recherché, veuillez vous assurer que le nom soit épelé correctement.</value>
+  </data>
+  <data name="CowsSaved">
+    <value>{0} vaches ont été sauvegardées. {1} vaches avaient des données incorrectes et n'ont pas été sauvegardées. </value>
+  </data>
+  <data name="Create">
+    <value>Créer</value>
+  </data>
+  <data name="CreateMAPPrimaryList">
+    <value>Créer la liste primaire</value>
+  </data>
+  <data name="CreateMAPPrimaryListRemove">
+    <value>Êtes-vous sûr que vous voulez supprimer {0} de la liste primaire?</value>
+  </data>
+  <data name="CRI">
+    <value>CRI</value>
+  </data>
+  <data name="Ctry">
+    <value>Pays</value>
+  </data>
+  <data name="CustomerAddedError">
+    <value>Le client n'a pas été ajouté à votre liste de clientèle. Veuillez réessayer plus tard.</value>
+  </data>
+  <data name="CustomerAddedToList">
+    <value>Le client a été ajouté à votre liste de clientèle. </value>
+  </data>
+  <data name="CustomerAPartOfList">
+    <value>Ce client fait déjà partie de votre liste de clientèle. </value>
+  </data>
+  <data name="CustomerContactInformation">
+    <value>Renseignements du client</value>
+  </data>
+  <data name="CustomerCreatedSuccessfully">
+    <value>Le profil du client a été créé avec succès</value>
+  </data>
+  <data name="CustomerMenu">
+    <value>Menu du client</value>
+  </data>
+  <data name="CustomerNameNotMatching">
+    <value>Le numéro entré ne correspond pas à {0}. Le nom du client correspondant au numéro entré est {1}. Désirez-vous continuer? </value>
+  </data>
+  <data name="CustomerNumberDoesNotExistError">
+    <value>Le numéro entré ne correspond pas aux clients dans le système.</value>
+  </data>
+  <data name="CustomerSaveFail">
+    <value>Le client n'a pas été sauvegardé avec succès, veuillez communiquez avec le bureau d'aide CRI IT au 715-526-7571. </value>
+  </data>
+  <data name="CustomerSearch">
+    <value>Recherche du client</value>
+  </data>
+  <data name="CustomizeFastScoreTraitOrder">
+    <value>Personnaliser l'ordre des caractères pour évaluation rapide</value>
+  </data>
+  <data name="Dairy">
+    <value>Laitier</value>
+  </data>
+  <data name="Dairyness">
+    <value>Qualité laitière</value>
+  </data>
+  <data name="DamReg">
+    <value>Enr. Mère</value>
+  </data>
+  <data name="Dec">
+    <value>DEC</value>
+  </data>
+  <data name="Delete">
+    <value>Supprimer</value>
+  </data>
+  <data name="DeleteAdd">
+    <value>Supprimer/Ajouter</value>
+  </data>
+  <data name="Deleted">
+    <value>Supprimer:</value>
+  </data>
+  <data name="DeleteHerd">
+    <value>Voulez-vous supprimer ce troupeau de votre système?</value>
+  </data>
+  <data name="DeleteSelectedCows">
+    <value>Voulez-vous supprimer les vaches sélectionnées?</value>
+  </data>
+  <data name="DeselectAll">
+    <value>Désélectionner Tous</value>
+  </data>
+  <data name="DF">
+    <value>Forme laitière</value>
+  </data>
+  <data name="DialNumber">
+    <value>Composer un numéro</value>
+  </data>
+  <data name="DIM">
+    <value>JEL</value>
+  </data>
+  <data name="DownloadBreeds">
+    <value>Télécharger les Races</value>
+  </data>
+  <data name="DownloadCountries">
+    <value>Télécharger les Pays</value>
+  </data>
+  <data name="Downloaded">
+    <value>Télécharger</value>
+  </data>
+  <data name="DownloadGamePlans">
+    <value>Télécharger les Stratégies</value>
+  </data>
+  <data name="DownloadHerdWhileCheckedOut">
+    <value>Ce troupeau est déjà utilisé par l'utilisateur inscrit ci-dessous. Êtes-vous sûr que vous voulez continuer?</value>
+  </data>
+  <data name="DoYouWantToDelete">
+    <value>Voulez-vous supprimer?</value>
+  </data>
+  <data name="DoYouWantToUndelete">
+    <value>Voulez-vous annuler la suppression?</value>
+  </data>
+  <data name="EartagReg">
+    <value>Étiquette d'oreille/# d'enr</value>
+  </data>
+  <data name="EditPedigree">
+    <value>Modifier les généalogies</value>
+  </data>
+  <data name="Email">
+    <value>Courriel</value>
+  </data>
+  <data name="Employee">
+    <value>Employé</value>
+  </data>
+  <data name="Employees">
+    <value>Employés</value>
+  </data>
+  <data name="EnterNumber">
+    <value>Entrer le numéro</value>
+  </data>
+  <data name="ERPCustomerSearch">
+    <value>Recherche du client ERP</value>
+  </data>
+  <data name="Express">
+    <value>Précis</value>
+  </data>
+  <data name="ExpressError">
+    <value>Vous avez sélectionné  MAP Précis Conformation. Vous n'avez pas de caractères de choisis.  Êtes-vous sûr que vous voulez sauvegarder?</value>
+  </data>
+  <data name="FA">
+    <value>AP</value>
+  </data>
+  <data name="Facebook">
+    <value>Facebook</value>
+  </data>
+  <data name="FastScore">
+    <value>Évaluation Rapide</value>
+  </data>
+  <data name="FastScorePrimaryCows">
+    <value>Évaluation Rapide / Vaches Primaires</value>
+  </data>
+  <data name="FatPercent">
+    <value>Pourcentage du Gras</value>
+  </data>
+  <data name="Feb">
+    <value>FEV</value>
+  </data>
+  <data name="FillAll">
+    <value>Remplir au complet</value>
+  </data>
+  <data name="Filter">
+    <value>Filtrer</value>
+  </data>
+  <data name="FootAngle">
+    <value>Angle du pied</value>
+  </data>
+  <data name="ForeUdderAttachment">
+    <value>Attache avant</value>
+  </data>
+  <data name="FP">
+    <value>PG</value>
+  </data>
+  <data name="FU">
+    <value>AA</value>
+  </data>
+  <data name="FullName*">
+    <value>Nom Complet*</value>
+  </data>
+  <data name="GamePlan">
+    <value>Stratégie</value>
+  </data>
+  <data name="GamePlan*">
+    <value>Stratégie*</value>
+  </data>
+  <data name="GamePlanCodesAlert">
+    <value>Êtes-vous sûr que vous voulez télécharger les stratégies?</value>
+  </data>
+  <data name="GamePlanCodesDownloaded">
+    <value>Les stratégies ont été téléchargées.</value>
+  </data>
+  <data name="GamePlanCodesDownloadedError">
+    <value>Incapable de télécharger les codes de stratégies. Veuillez réessayer plus tard.</value>
+  </data>
+  <data name="Genomic">
+    <value>Génomique</value>
+  </data>
+  <data name="GettingBreed">
+    <value>Aucune race de retrouvée. Veuillez réessayer plus tard.</value>
+  </data>
+  <data name="GettingCountry">
+    <value>Aucun pays de retrouvé.  Veuillez réessayer plus tard.</value>
+  </data>
+  <data name="GettingCowPedigreeInfo">
+    <value>Incapable de récupérer les renseignements généalogiques.</value>
+  </data>
+  <data name="Google">
+    <value>Google</value>
+  </data>
+  <data name="GoToTop">
+    <value>Aller vers le haut</value>
+  </data>
+  <data name="GP">
+    <value>Strat.</value>
+  </data>
+  <data name="Help">
+    <value>Aide</value>
+  </data>
+  <data name="HerdCounts">
+    <value>Compte des troupeaux</value>
+  </data>
+  <data name="Hide">
+    <value>Cacher</value>
+  </data>
+  <data name="High">
+    <value>Élevé</value>
+  </data>
+  <data name="Horizons">
+    <value>Horizons</value>
+  </data>
+  <data name="InternationalDistributor">
+    <value>Distributeur international</value>
+  </data>
+  <data name="InternationalDistributors">
+    <value>Distributeurs internationaux</value>
+  </data>
+  <data name="InvalidCountry">
+    <value>Code de pays invalide</value>
+  </data>
+  <data name="InvalidRegion">
+    <value>Région invalide</value>
+  </data>
+  <data name="Jan">
+    <value>JAN</value>
+  </data>
+  <data name="Jul">
+    <value>JUL</value>
+  </data>
+  <data name="Jun">
+    <value>JUI</value>
+  </data>
+  <data name="Lactation">
+    <value>Lactation</value>
+  </data>
+  <data name="LegalName*">
+    <value>Nom légal*</value>
+  </data>
+  <data name="LegsRearView">
+    <value>Position Membres Arrière</value>
+  </data>
+  <data name="LegsSideView">
+    <value>Vue Côté- Membres Arrière</value>
+  </data>
+  <data name="Linear">
+    <value>Linéaire</value>
+  </data>
+  <data name="LinearError">
+    <value>Vous avez sélectionné la fonction Linear MAP sans remplir tous les caractères.  Êtes-vous sûr que vous voulez sauvegarder?</value>
+  </data>
+  <data name="Login">
+    <value>Login</value>
+  </data>
+  <data name="LoginExpired">
+    <value>Votre connexion est expirée. Réeffectuez votre login.</value>
+  </data>
+  <data name="LoginFail">
+    <value>Incapable de connecter. Veuillez réessayer plus tard. Veuillez communiquer avec le bureau d'aide CRI IT au helpdesk@crinet.com si l'erreur se poursuit.</value>
+  </data>
+  <data name="Logout">
+    <value>Déconnecter</value>
+  </data>
+  <data name="LogoutConfirmation">
+    <value>Êtes-vous sûr que vous voulez vous déconnecter? Accès à l'internet est nécessaire pour vous reconnecter.  </value>
+  </data>
+  <data name="Low">
+    <value>Faible</value>
+  </data>
+  <data name="LR">
+    <value>MA</value>
+  </data>
+  <data name="LS">
+    <value>MC</value>
+  </data>
+  <data name="MakeCustomerMAPCustomer">
+    <value>Créer MAP Client</value>
+  </data>
+  <data name="MAP">
+    <value>MAP</value>
+  </data>
+  <data name="MappingMonths">
+    <value>Traçage Mois</value>
+  </data>
+  <data name="MapType">
+    <value>MAP Conformation*</value>
+  </data>
+  <data name="MapTypePicker">
+    <value>Traçage Conformation:</value>
+  </data>
+  <data name="Mar">
+    <value>MAR</value>
+  </data>
+  <data name="MassPedigreePrimaryCows">
+    <value>Groupe entier de Généalogies avec vaches primaires</value>
+  </data>
+  <data name="MatingPriority">
+    <value>Accouplement prioritaire</value>
+  </data>
+  <data name="May">
+    <value>MAI</value>
+  </data>
+  <data name="Medium">
+    <value>Médium</value>
+  </data>
+  <data name="MGGS">
+    <value>AGPM</value>
+  </data>
+  <data name="MGS">
+    <value>GPM</value>
+  </data>
+  <data name="Microsoft">
+    <value>Microsoft</value>
+  </data>
+  <data name="MilkingSpeed">
+    <value>Vitesse de traite</value>
+  </data>
+  <data name="MoveSelectedCowsToBottom">
+    <value>Voulez-vous déplacer les vaches sélectionnées au bas de la liste?</value>
+  </data>
+  <data name="MoveSelectedCowsToTop">
+    <value>Voulez-vous déplacer les vaches sélectionnées au haut de la liste?</value>
+  </data>
+  <data name="MoveToBottom">
+    <value>Déplacer au bas</value>
+  </data>
+  <data name="MoveToTop">
+    <value>Déplacer au haut</value>
+  </data>
+  <data name="MP">
+    <value>AP</value>
+  </data>
+  <data name="MS">
+    <value>VT</value>
+  </data>
+  <data name="MultipleUsersError">
+    <value>Ce compte est associé à un employé et à un distributeur international. Vous désirez vous connecter à quel compte?</value>
+  </data>
+  <data name="MultiSelect">
+    <value>Multi Sélect</value>
+  </data>
+  <data name="MustBeANumber">
+    <value>Doit utiliser un chiffre</value>
+  </data>
+  <data name="NAABError">
+    <value>NAAB incomplet</value>
+  </data>
+  <data name="Name">
+    <value>Nom</value>
+  </data>
+  <data name="Name*">
+    <value>Nom*</value>
+  </data>
+  <data name="NameRequired">
+    <value>*Nom est requis</value>
+  </data>
+  <data name="New">
+    <value>Nouveau:</value>
+  </data>
+  <data name="NewCustomer">
+    <value>Nouveau Client</value>
+  </data>
+  <data name="Next">
+    <value>Suivant&gt;</value>
+  </data>
+  <data name="No">
+    <value>Aucun</value>
+  </data>
+  <data name="NoBreeds">
+    <value>Aucune race, veuillez mettre à jour les races.</value>
+  </data>
+  <data name="NoCountries">
+    <value>Aucun pays, veuillez mettre à jour les pays.</value>
+  </data>
+  <data name="NoCowsFound">
+    <value>Aucune vache de retrouvée.</value>
+  </data>
+  <data name="NoDataChanges">
+    <value>Aucun changement de détecté pour sauvegarder.</value>
+  </data>
+  <data name="NoGamePlans">
+    <value>Aucune stratégie, veuillez mettre à jour les stratégies.</value>
+  </data>
+  <data name="NoInternet">
+    <value>Accès à l'internet n'est pas disponible. Veuillez vous connecter là où le service est disponible.</value>
+  </data>
+  <data name="None">
+    <value>Aucun</value>
+  </data>
+  <data name="Notes">
+    <value>Notes</value>
+  </data>
+  <data name="NoTransactionError">
+    <value>Aucune donnée à synch. Noter: Les données sont synchronisées activement lorsque connecté au Wi-Fi</value>
+  </data>
+  <data name="Nov">
+    <value>NOV</value>
+  </data>
+  <data name="NoWorstFault">
+    <value>Pas de défauts majeurs</value>
+  </data>
+  <data name="NumberTooLong">
+    <value>Les chiffres sont trop nombreux</value>
+  </data>
+  <data name="NumberTooShort">
+    <value>Nombre de chiffres est insuffisant</value>
+  </data>
+  <data name="Oct">
+    <value>OCT</value>
+  </data>
+  <data name="Okay">
+    <value>Ok</value>
+  </data>
+  <data name="OldCustomerNumber">
+    <value>Ancien numéro du client:</value>
+  </data>
+  <data name="Oops">
+    <value>Oups!</value>
+  </data>
+  <data name="OR">
+    <value>OU</value>
+  </data>
+  <data name="OutsideArea">
+    <value>À l'extérieur des bureaux de ventes/Groupe</value>
+  </data>
+  <data name="Pedigree">
+    <value>Généalogie</value>
+  </data>
+  <data name="PedigreeEdit">
+    <value>Modification à la Généalogie</value>
+  </data>
+  <data name="PedigreeError">
+    <value>Vous avez sélectionné MAP conformation mais vous n'avez pas de renseignements généalogiques. Êtes-vous sûr que vous voulez sauvegarder?</value>
+  </data>
+  <data name="PedigreesSaved">
+    <value>La sauvegarde des généalogies a été effectuée avec succès.</value>
+  </data>
+  <data name="PhoneDialError">
+    <value>Nous éprouvons de la difficulté à composer ce numéro#. Veuillez réessayer plus tard.  Veuillez communiquer avec le bureau d'aide CRI IT au helpdesk@crinet.com si l'erreur se poursuit. </value>
+  </data>
+  <data name="PhoneNumberError">
+    <value>Un numéro de téléphone, soit de bureau ou de cellulaire est requis. </value>
+  </data>
+  <data name="PixCow">
+    <value>Pix Vache</value>
+  </data>
+  <data name="PostalCode">
+    <value>Code Postale</value>
+  </data>
+  <data name="PP">
+    <value>PP</value>
+  </data>
+  <data name="Prev">
+    <value>Pré</value>
+  </data>
+  <data name="Primary">
+    <value>Primaire</value>
+  </data>
+  <data name="PrimaryListSearchResult">
+    <value>Vache(s) retrouvée(s) - Sélectionnez la vache à ajouter à la liste. </value>
+  </data>
+  <data name="Priority">
+    <value>Prioritaire</value>
+  </data>
+  <data name="Processed">
+    <value>Traité</value>
+  </data>
+  <data name="ProteinPercent">
+    <value>Pourcentage de la Protéine</value>
+  </data>
+  <data name="RearUdderHeight">
+    <value>Hauteur Attache Arrière</value>
+  </data>
+  <data name="RearUdderWidth">
+    <value>Largeur Attache Arrière</value>
+  </data>
+  <data name="Reg">
+    <value>Rég</value>
+  </data>
+  <data name="Region">
+    <value>Région</value>
+  </data>
+  <data name="Region*">
+    <value>Région*</value>
+  </data>
+  <data name="RegistrationError">
+    <value>Enregistrement incomplet.</value>
+  </data>
+  <data name="Remove">
+    <value>Éliminer</value>
+  </data>
+  <data name="RemoveHerdError">
+    <value>Il y a un problème avec l'élimination du troupeau de votre dispositif. Veuillez réessayer plus tard.  Veuillez communiquer avec le bureau d'aide CRI IT au helpdesk@crinet.com si l'erreur se poursuit. </value>
+  </data>
+  <data name="RemoveHerdFromDevice">
+    <value>Supprimer le troupeau du dispositif</value>
+  </data>
+  <data name="RemoveOutsideCustomerFromDevice">
+    <value>Supprimer le client de l'extérieur du dispositif</value>
+  </data>
+  <data name="RequestHerd">
+    <value>Demande de troupeau</value>
+  </data>
+  <data name="Required">
+    <value>Ce champ est obligatoire</value>
+  </data>
+  <data name="RequiredFields">
+    <value>Ces champs sont obligatoires</value>
+  </data>
+  <data name="Reset">
+    <value>Réinitialiser</value>
+  </data>
+  <data name="RetrieveCowsError">
+    <value>Incapable de récupérer les vaches.  Veuillez réessayer plus tard.</value>
+  </data>
+  <data name="RetrieveCustomersError">
+    <value>Incapable de régénérer la liste de client.  Veuillez réessayer plus tard.</value>
+  </data>
+  <data name="RH">
+    <value>HA</value>
+  </data>
+  <data name="RS">
+    <value>AC</value>
+  </data>
+  <data name="RU">
+    <value>LA</value>
+  </data>
+  <data name="RumpSideView">
+    <value>Angle de la croupe</value>
+  </data>
+  <data name="RumpWidth">
+    <value>Largeur de la croupe</value>
+  </data>
+  <data name="RW">
+    <value>LC</value>
+  </data>
+  <data name="SameBillingAddress">
+    <value>Même renseignements que les renseignements de facturation</value>
+  </data>
+  <data name="SameShippingAddress">
+    <value>Même adresse d'expédition</value>
+  </data>
+  <data name="Save">
+    <value>Sauvegarder</value>
+  </data>
+  <data name="SaveAndBack">
+    <value>Sauvegarder et retourner</value>
+  </data>
+  <data name="SaveChanges">
+    <value>Voulez-vous sauvegarder vos changements?</value>
+  </data>
+  <data name="SaveComplete">
+    <value>Sauvegarde est complétée</value>
+  </data>
+  <data name="SaveCowsPedigrees">
+    <value>Sauvegarder les généalogies de vaches</value>
+  </data>
+  <data name="SaveError">
+    <value>Veuillez vérifier vos données et réessayer.</value>
+  </data>
+  <data name="SavingPedigreesError">
+    <value>Les généalogies n'ont pas été sauvegardées. Veuillez vérifier vos données et réessayer.</value>
+  </data>
+  <data name="Scheduled">
+    <value>Programmer</value>
+  </data>
+  <data name="ScoreScale">
+    <value>Échelle d'évaluation</value>
+  </data>
+  <data name="Search">
+    <value>Recherche</value>
+  </data>
+  <data name="SearchCowListBy">
+    <value>Rechercher la liste de vaches selon:</value>
+  </data>
+  <data name="Secondary">
+    <value>Secondaire/Reste</value>
+  </data>
+  <data name="SelectAGamePlan">
+    <value>Sélectionnez une stratégie:</value>
+  </data>
+  <data name="SelectAll">
+    <value>Sélectionnez Tous</value>
+  </data>
+  <data name="SelectAllConfirm">
+    <value>Vous êtes sur le point de sélectionner ou de désélectionner Tous animaux, désirez-vous continuer?</value>
+  </data>
+  <data name="SelectMultipleCows">
+    <value>Sélectionner Vaches Multiples</value>
+  </data>
+  <data name="SendContactEmailError">
+    <value>Il y a un problème avec l'ouverture d'un nouveau courriel. Veuillez réessayer plus tard.  Veuillez communiquer avec le bureau d'aide CRI IT au helpdesk@crinet.com si l'erreur se poursuit.</value>
+  </data>
+  <data name="SendEmail">
+    <value>Envoyez un courriel</value>
+  </data>
+  <data name="Sep">
+    <value>SEP</value>
+  </data>
+  <data name="ShippingCustomer">
+    <value>Renseignements d'expédition</value>
+  </data>
+  <data name="ShippingInformation">
+    <value>Renseignements d'expédition</value>
+  </data>
+  <data name="ShowMore">
+    <value>Plus</value>
+  </data>
+  <data name="ShowProcessed">
+    <value>Montrer informations traitées</value>
+  </data>
+  <data name="ShowUnprocessed">
+    <value>Montrer informations non traitées</value>
+  </data>
+  <data name="Sire">
+    <value>Taureau</value>
+  </data>
+  <data name="SireCode">
+    <value>Code du taureau</value>
+  </data>
+  <data name="SL">
+    <value>SL</value>
+  </data>
+  <data name="SQLliteError">
+    <value>Incapable de lire les fichiers sauvegardés. Veuillez communiquer avec le bureau d'aide CRI IT au 715-526-7571 si l'erreur se poursuit.</value>
+  </data>
+  <data name="ST">
+    <value>ST</value>
+  </data>
+  <data name="State*">
+    <value>État*</value>
+  </data>
+  <data name="Stature">
+    <value>Stature</value>
+  </data>
+  <data name="Stud">
+    <value>Centre d'insémination</value>
+  </data>
+  <data name="StudBrdSireCodeError">
+    <value>Centre d'insémination, Race, Code de Taureau sont requis afin de poursuivre.</value>
+  </data>
+  <data name="Success">
+    <value>Succès</value>
+  </data>
+  <data name="SuspensoryLigament">
+    <value>Suspension  médiane</value>
+  </data>
+  <data name="SwitchToBrdCtryReg">
+    <value>Changer à Race/Pays/Enr</value>
+  </data>
+  <data name="SwitchToStudBrdSire">
+    <value>Changer à C.I./Race/CodeTaur</value>
+  </data>
+  <data name="SyncAll">
+    <value>Sync Tous</value>
+  </data>
+  <data name="SyncSettingsMenu">
+    <value>Sync/Menu des paramètres</value>
+  </data>
+  <data name="SyncSuccessfully">
+    <value>La synchronisation de vos transactions est effectuée avec succès</value>
+  </data>
+  <data name="SyncTransactionsError">
+    <value>Incapable de synchroniser vos transactions.  Veuillez réessayer plus tard.</value>
+  </data>
+  <data name="TeatLength">
+    <value>Longueur des Trayons</value>
+  </data>
+  <data name="TeatPlacement">
+    <value>Position des Trayons</value>
+  </data>
+  <data name="Temperament">
+    <value>Tempérament</value>
+  </data>
+  <data name="TL">
+    <value>LT</value>
+  </data>
+  <data name="TM">
+    <value>TP</value>
+  </data>
+  <data name="Total">
+    <value>Total:</value>
+  </data>
+  <data name="TP">
+    <value>PT</value>
+  </data>
+  <data name="Traits">
+    <value>Caractères</value>
+  </data>
+  <data name="UD">
+    <value>PP</value>
+  </data>
+  <data name="UdderDepth">
+    <value>Profondeur du pis</value>
+  </data>
+  <data name="UnableFindCustomer">
+    <value>Incapable de retrouver le client?</value>
+  </data>
+  <data name="UnableToLoadERPCustomers">
+    <value>Incapable de télécharger les clients SAP. Veuillez réessayer plus tard. </value>
+  </data>
+  <data name="UndeleteSelectedCows">
+    <value>Voulez-vous annuler la suppression des vaches sélectionnées?</value>
+  </data>
+  <data name="UniqueNameEartagError">
+    <value>Le Nom et l'Étiquette d'oreille doivent être uniques au client.</value>
+  </data>
+  <data name="Unprocessed">
+    <value>Non traité</value>
+  </data>
+  <data name="UpdateCustomerNumber">
+    <value>Mettre à jour le Numéro du Client</value>
+  </data>
+  <data name="UpdateCustomerNumberError">
+    <value>Incapable de mettre à jour le numéro.</value>
+  </data>
+  <data name="Updated">
+    <value>Mis à jour:</value>
+  </data>
+  <data name="UserSetupFail">
+    <value>La configuration n'a pas été effectuée avec succès après la connexion de l'utilisateur.  Veuillez réessayer plus tard. Veuillez communiquer avec le bureau d'aide au helpdesk@crinet.com si le problème se poursuit. </value>
+  </data>
+  <data name="ValueTooLong">
+    <value>La valeur entrée est trop longue.</value>
+  </data>
+  <data name="ValueTooShort">
+    <value>La valeur entrée est trop courte.</value>
+  </data>
+  <data name="WC">
+    <value>LP</value>
+  </data>
+  <data name="WF">
+    <value>GF</value>
+  </data>
+  <data name="WhichScoreScale">
+    <value>Quelle échelle d'évaluation devrait être utilisée?</value>
+  </data>
+  <data name="WidthOfChest">
+    <value>Largeur du poitrail</value>
+  </data>
+  <data name="WiFiOnly">
+    <value>WiFi Seulement</value>
+  </data>
+  <data name="WiFiOnlyError">
+    <value>Le WiFI Seulement est activé. Désactiver pour continuer ou branchez vous à une source WiFi. </value>
+  </data>
+  <data name="WorstFault">
+    <value>Plus grande faute</value>
+  </data>
+  <data name="Yes">
+    <value>Oui</value>
+  </data>
+  <data name="ZeroBreedsInDBError">
+    <value>Aucune race dans la base de données.  Veuillez télécharger les races à nouveau. </value>
+  </data>
+  <data name="ZeroCountriesInDBError">
+    <value>Aucun pays dans la base de données.  Veuillez télécharger les pays à nouveau.</value>
+  </data>
+  <data name="ZeroGamePlanCodesInDBError" xml:space="preserve">
+    <value>Aucun code de stratégies dans la base de données. Veuillez télécharger les Codes de Stratégies à nouveau. </value>
+  </data>
+</root>

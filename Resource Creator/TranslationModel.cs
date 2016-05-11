@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace Resource_Creator
 {
     //Went with '&' because commas are aboundent in languages. 
-    [DelimitedRecord(",")]
+    [DelimitedRecord("|")]
     public class TranslationModel
     {        
         public string Name { get; set; }
